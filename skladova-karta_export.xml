@@ -108,7 +108,7 @@
     <!-- Stav zásob [Kč] (desetinné číslo) - počet číslic: 15 -->
     <stavTuz>13818.0</stavTuz>
     <!-- Stav zásob v MJ (desetinné číslo) - počet číslic: 19 -->
-    <stavMJ>20.0</stavMJ>
+    <stavMJ>19.0</stavMJ>
   </skladova-karta>
   <skladova-karta>
     <id>1064</id>
