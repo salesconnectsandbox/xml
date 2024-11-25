@@ -1,3 +1,4 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <winstrom version="1.0">
 <!--  Skladová karta  -->
 <skladova-karta>
@@ -28,7 +29,7 @@
 </cenik>
 </cenik>
 <!--  Stav zásob v MJ s požadavky (desetinné číslo) - počet číslic: 19  -->
-<stavMjSPozadavky>20.0</stavMjSPozadavky>
+<stavMjSPozadavky>17.0</stavMjSPozadavky>
 <!--  Místnost (objekt) - max. délka: 20  -->
 <mistnost evidencePath="umisteni-ve-skladu" showAs="PAL: PALETA" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/2.xml">
 <!--  Umístění ve skladu  -->
@@ -70,7 +71,7 @@
 <!--  DEPRECATED, use "sklad"  -->
 <typDokl evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">code:0096</typDokl>
 <!--  Datum posl. pohybu (datum) -  -->
-<datPosl>2024-11-18</datPosl>
+<datPosl>2024-11-25</datPosl>
 <!--  Účetní období (objekt) - max. délka: 20  -->
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
 <!--  Účetní období  -->
@@ -88,7 +89,7 @@
 </ucetni-obdobi>
 </ucetObdobi>
 <!--  Dostupné množství (desetinné číslo) - počet číslic: 19  -->
-<dostupMj>20.0</dostupMj>
+<dostupMj>17.0</dostupMj>
 <!--  Maximum (desetinné číslo) - počet číslic: 19  -->
 <maxMJ>0.0</maxMJ>
 <!--  Min. zásoba MJ (desetinné číslo) - počet číslic: 19  -->
@@ -104,9 +105,9 @@
 <!--  Průměrná cena [Kč] (desetinné číslo) - počet číslic: 19  -->
 <prumCenaTuz>690.9</prumCenaTuz>
 <!--  Stav zásob [Kč] (desetinné číslo) - počet číslic: 15  -->
-<stavTuz>13818.0</stavTuz>
+<stavTuz>11745.3</stavTuz>
 <!--  Stav zásob v MJ (desetinné číslo) - počet číslic: 19  -->
-<stavMJ>20.0</stavMJ>
+<stavMJ>17.0</stavMJ>
 </skladova-karta>
 <skladova-karta>
 <id>1064</id>
@@ -195,7 +196,7 @@
 </mj1>
 </cenik>
 </cenik>
-<stavMjSPozadavky>8.0</stavMjSPozadavky>
+<stavMjSPozadavky>6.0</stavMjSPozadavky>
 <mistnost evidencePath="umisteni-ve-skladu" showAs="PAL: PALETA" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/2.xml">
 <umisteni-ve-skladu>
 <id>2</id>
@@ -225,7 +226,7 @@
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
 <typDokl evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">code:0096</typDokl>
-<datPosl>2024-11-21</datPosl>
+<datPosl>2024-11-25</datPosl>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
 <ucetni-obdobi>
 <id>1</id>
@@ -235,7 +236,7 @@
 <popis/>
 </ucetni-obdobi>
 </ucetObdobi>
-<dostupMj>8.0</dostupMj>
+<dostupMj>6.0</dostupMj>
 <maxMJ>0.0</maxMJ>
 <minMJ>0.0</minMJ>
 <pocatTuz>0.0</pocatTuz>
@@ -243,8 +244,8 @@
 <popis/>
 <pozadavkyMj>0.0</pozadavkyMj>
 <prumCenaTuz>625.1</prumCenaTuz>
-<stavTuz>5000.8</stavTuz>
-<stavMJ>8.0</stavMJ>
+<stavTuz>3750.6</stavTuz>
+<stavMJ>6.0</stavMJ>
 </skladova-karta>
 <skladova-karta>
 <id>1063</id>
@@ -704,5 +705,2045 @@
 <prumCenaTuz>526.4</prumCenaTuz>
 <stavTuz>526.4</stavTuz>
 <stavMJ>1.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1102</id>
+<cenik evidencePath="cenik" showAs="0096_N285Z0.00.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, šedý" ref="/v2/c/tradehunters__s_r_o_1/cenik/194.xml">
+<cenik>
+<id>194</id>
+<kod>0096_N285Z0.00.0605.1.1</kod>
+<eanKod>8595167405208</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, šedý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>1.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">
+<sklad>
+<id>13</id>
+<kod>9996</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">code:9996</typDokl>
+<datPosl>2024-11-22</datPosl>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>1.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>658.0</prumCenaTuz>
+<stavTuz>658.0</stavTuz>
+<stavMJ>1.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1066</id>
+<cenik evidencePath="cenik" showAs="0096_N785K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/186.xml">
+<cenik>
+<id>186</id>
+<kod>0096_N785K0.A5.0604.1.1</kod>
+<eanKod>8595167405246</eanKod>
+<nazev>Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">
+<sklad>
+<id>10</id>
+<kod>9999</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">code:9999</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1067</id>
+<cenik evidencePath="cenik" showAs="0096_N285Z1.00.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, pozinkované" ref="/v2/c/tradehunters__s_r_o_1/cenik/187.xml">
+<cenik>
+<id>187</id>
+<kod>0096_N285Z1.00.0605.1.1</kod>
+<eanKod>8595167405222</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, pozinkované</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">
+<sklad>
+<id>10</id>
+<kod>9999</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">code:9999</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1068</id>
+<cenik evidencePath="cenik" showAs="0096_N685Z7.00.0805.1.1: Kovový regál s policemi z MDF, 178 x 120 x 40 cm, 5 polic" ref="/v2/c/tradehunters__s_r_o_1/cenik/188.xml">
+<cenik>
+<id>188</id>
+<kod>0096_N685Z7.00.0805.1.1</kod>
+<eanKod>8595167405253</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 120 x 40 cm, 5 polic</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">
+<sklad>
+<id>10</id>
+<kod>9999</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">code:9999</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1069</id>
+<cenik evidencePath="cenik" showAs="0096_N285P0.09.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, světle šedá barva" ref="/v2/c/tradehunters__s_r_o_1/cenik/189.xml">
+<cenik>
+<id>189</id>
+<kod>0096_N285P0.09.0605.1.1</kod>
+<eanKod>8595167405192</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, světle šedá barva</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">
+<sklad>
+<id>10</id>
+<kod>9999</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">code:9999</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1070</id>
+<cenik evidencePath="cenik" showAs="0096_A10180.2.09.1.4: Dvoudveřová kovová skříň jako stavebnice, 180x60x50 cm, světle šedá" ref="/v2/c/tradehunters__s_r_o_1/cenik/190.xml">
+<cenik>
+<id>190</id>
+<kod>0096_A10180.2.09.1.4</kod>
+<eanKod>8595167400012</eanKod>
+<nazev>Dvoudveřová kovová skříň jako stavebnice, 180x60x50 cm, světle šedá</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">
+<sklad>
+<id>10</id>
+<kod>9999</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">code:9999</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1071</id>
+<cenik evidencePath="cenik" showAs="0096_C39400.2.09.1.4: Kovová skříň se 4 policemi, v demontu, 195x95x40 cm, světle šedá" ref="/v2/c/tradehunters__s_r_o_1/cenik/191.xml">
+<cenik>
+<id>191</id>
+<kod>0096_C39400.2.09.1.4</kod>
+<eanKod>8595167405178</eanKod>
+<nazev>Kovová skříň se 4 policemi, v demontu, 195x95x40 cm, světle šedá</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">
+<sklad>
+<id>10</id>
+<kod>9999</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">code:9999</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1072</id>
+<cenik evidencePath="cenik" showAs="0096_N78200.2.A5.0LMP: Kovový regál, 145 x 75 x 30 cm, 4 police, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/192.xml">
+<cenik>
+<id>192</id>
+<kod>0096_N78200.2.A5.0LMP</kod>
+<eanKod>8595167405260</eanKod>
+<nazev>Kovový regál, 145 x 75 x 30 cm, 4 police, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">
+<sklad>
+<id>10</id>
+<kod>9999</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">code:9999</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1073</id>
+<cenik evidencePath="cenik" showAs="0096_N285P1.09.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, šedé provedení" ref="/v2/c/tradehunters__s_r_o_1/cenik/193.xml">
+<cenik>
+<id>193</id>
+<kod>0096_N285P1.09.0605.1.1</kod>
+<eanKod>8595167405215</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, šedé provedení</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">
+<sklad>
+<id>10</id>
+<kod>9999</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">code:9999</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1074</id>
+<cenik evidencePath="cenik" showAs="0096_N285Z0.00.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, šedý" ref="/v2/c/tradehunters__s_r_o_1/cenik/194.xml">
+<cenik>
+<id>194</id>
+<kod>0096_N285Z0.00.0605.1.1</kod>
+<eanKod>8595167405208</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, šedý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">
+<sklad>
+<id>10</id>
+<kod>9999</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">code:9999</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1075</id>
+<cenik evidencePath="cenik" showAs="0096_N786K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 6 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/195.xml">
+<cenik>
+<id>195</id>
+<kod>0096_N786K0.A5.0604.1.1</kod>
+<eanKod>8595167405239</eanKod>
+<nazev>Kovový regál, 175 x 75 x 30 cm, 6 polic, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">
+<sklad>
+<id>10</id>
+<kod>9999</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9999: FFC - SPOTŘEBNÍ MATERIÁL" ref="/v2/c/tradehunters__s_r_o_1/sklad/10.xml">code:9999</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1076</id>
+<cenik evidencePath="cenik" showAs="0096_N785K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/186.xml">
+<cenik>
+<id>186</id>
+<kod>0096_N785K0.A5.0604.1.1</kod>
+<eanKod>8595167405246</eanKod>
+<nazev>Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">
+<sklad>
+<id>11</id>
+<kod>9998</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">code:9998</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1077</id>
+<cenik evidencePath="cenik" showAs="0096_N285Z1.00.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, pozinkované" ref="/v2/c/tradehunters__s_r_o_1/cenik/187.xml">
+<cenik>
+<id>187</id>
+<kod>0096_N285Z1.00.0605.1.1</kod>
+<eanKod>8595167405222</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, pozinkované</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">
+<sklad>
+<id>11</id>
+<kod>9998</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">code:9998</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1078</id>
+<cenik evidencePath="cenik" showAs="0096_N685Z7.00.0805.1.1: Kovový regál s policemi z MDF, 178 x 120 x 40 cm, 5 polic" ref="/v2/c/tradehunters__s_r_o_1/cenik/188.xml">
+<cenik>
+<id>188</id>
+<kod>0096_N685Z7.00.0805.1.1</kod>
+<eanKod>8595167405253</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 120 x 40 cm, 5 polic</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">
+<sklad>
+<id>11</id>
+<kod>9998</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">code:9998</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1079</id>
+<cenik evidencePath="cenik" showAs="0096_N285P0.09.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, světle šedá barva" ref="/v2/c/tradehunters__s_r_o_1/cenik/189.xml">
+<cenik>
+<id>189</id>
+<kod>0096_N285P0.09.0605.1.1</kod>
+<eanKod>8595167405192</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, světle šedá barva</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">
+<sklad>
+<id>11</id>
+<kod>9998</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">code:9998</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1080</id>
+<cenik evidencePath="cenik" showAs="0096_A10180.2.09.1.4: Dvoudveřová kovová skříň jako stavebnice, 180x60x50 cm, světle šedá" ref="/v2/c/tradehunters__s_r_o_1/cenik/190.xml">
+<cenik>
+<id>190</id>
+<kod>0096_A10180.2.09.1.4</kod>
+<eanKod>8595167400012</eanKod>
+<nazev>Dvoudveřová kovová skříň jako stavebnice, 180x60x50 cm, světle šedá</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">
+<sklad>
+<id>11</id>
+<kod>9998</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">code:9998</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1081</id>
+<cenik evidencePath="cenik" showAs="0096_C39400.2.09.1.4: Kovová skříň se 4 policemi, v demontu, 195x95x40 cm, světle šedá" ref="/v2/c/tradehunters__s_r_o_1/cenik/191.xml">
+<cenik>
+<id>191</id>
+<kod>0096_C39400.2.09.1.4</kod>
+<eanKod>8595167405178</eanKod>
+<nazev>Kovová skříň se 4 policemi, v demontu, 195x95x40 cm, světle šedá</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">
+<sklad>
+<id>11</id>
+<kod>9998</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">code:9998</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1082</id>
+<cenik evidencePath="cenik" showAs="0096_N78200.2.A5.0LMP: Kovový regál, 145 x 75 x 30 cm, 4 police, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/192.xml">
+<cenik>
+<id>192</id>
+<kod>0096_N78200.2.A5.0LMP</kod>
+<eanKod>8595167405260</eanKod>
+<nazev>Kovový regál, 145 x 75 x 30 cm, 4 police, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">
+<sklad>
+<id>11</id>
+<kod>9998</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">code:9998</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1083</id>
+<cenik evidencePath="cenik" showAs="0096_N285P1.09.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, šedé provedení" ref="/v2/c/tradehunters__s_r_o_1/cenik/193.xml">
+<cenik>
+<id>193</id>
+<kod>0096_N285P1.09.0605.1.1</kod>
+<eanKod>8595167405215</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, šedé provedení</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">
+<sklad>
+<id>11</id>
+<kod>9998</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">code:9998</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1084</id>
+<cenik evidencePath="cenik" showAs="0096_N285Z0.00.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, šedý" ref="/v2/c/tradehunters__s_r_o_1/cenik/194.xml">
+<cenik>
+<id>194</id>
+<kod>0096_N285Z0.00.0605.1.1</kod>
+<eanKod>8595167405208</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, šedý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">
+<sklad>
+<id>11</id>
+<kod>9998</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">code:9998</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1085</id>
+<cenik evidencePath="cenik" showAs="0096_N786K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 6 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/195.xml">
+<cenik>
+<id>195</id>
+<kod>0096_N786K0.A5.0604.1.1</kod>
+<eanKod>8595167405239</eanKod>
+<nazev>Kovový regál, 175 x 75 x 30 cm, 6 polic, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">
+<sklad>
+<id>11</id>
+<kod>9998</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9998: BLOKACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/11.xml">code:9998</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1086</id>
+<cenik evidencePath="cenik" showAs="0096_N285Z1.00.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, pozinkované" ref="/v2/c/tradehunters__s_r_o_1/cenik/187.xml">
+<cenik>
+<id>187</id>
+<kod>0096_N285Z1.00.0605.1.1</kod>
+<eanKod>8595167405222</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, pozinkované</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">
+<sklad>
+<id>12</id>
+<kod>9997</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">code:9997</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1087</id>
+<cenik evidencePath="cenik" showAs="0096_N685Z7.00.0805.1.1: Kovový regál s policemi z MDF, 178 x 120 x 40 cm, 5 polic" ref="/v2/c/tradehunters__s_r_o_1/cenik/188.xml">
+<cenik>
+<id>188</id>
+<kod>0096_N685Z7.00.0805.1.1</kod>
+<eanKod>8595167405253</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 120 x 40 cm, 5 polic</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">
+<sklad>
+<id>12</id>
+<kod>9997</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">code:9997</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1088</id>
+<cenik evidencePath="cenik" showAs="0096_N285P0.09.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, světle šedá barva" ref="/v2/c/tradehunters__s_r_o_1/cenik/189.xml">
+<cenik>
+<id>189</id>
+<kod>0096_N285P0.09.0605.1.1</kod>
+<eanKod>8595167405192</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, světle šedá barva</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">
+<sklad>
+<id>12</id>
+<kod>9997</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">code:9997</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1089</id>
+<cenik evidencePath="cenik" showAs="0096_A10180.2.09.1.4: Dvoudveřová kovová skříň jako stavebnice, 180x60x50 cm, světle šedá" ref="/v2/c/tradehunters__s_r_o_1/cenik/190.xml">
+<cenik>
+<id>190</id>
+<kod>0096_A10180.2.09.1.4</kod>
+<eanKod>8595167400012</eanKod>
+<nazev>Dvoudveřová kovová skříň jako stavebnice, 180x60x50 cm, světle šedá</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">
+<sklad>
+<id>12</id>
+<kod>9997</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">code:9997</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1090</id>
+<cenik evidencePath="cenik" showAs="0096_C39400.2.09.1.4: Kovová skříň se 4 policemi, v demontu, 195x95x40 cm, světle šedá" ref="/v2/c/tradehunters__s_r_o_1/cenik/191.xml">
+<cenik>
+<id>191</id>
+<kod>0096_C39400.2.09.1.4</kod>
+<eanKod>8595167405178</eanKod>
+<nazev>Kovová skříň se 4 policemi, v demontu, 195x95x40 cm, světle šedá</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">
+<sklad>
+<id>12</id>
+<kod>9997</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">code:9997</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1091</id>
+<cenik evidencePath="cenik" showAs="0096_N78200.2.A5.0LMP: Kovový regál, 145 x 75 x 30 cm, 4 police, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/192.xml">
+<cenik>
+<id>192</id>
+<kod>0096_N78200.2.A5.0LMP</kod>
+<eanKod>8595167405260</eanKod>
+<nazev>Kovový regál, 145 x 75 x 30 cm, 4 police, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">
+<sklad>
+<id>12</id>
+<kod>9997</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">code:9997</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1092</id>
+<cenik evidencePath="cenik" showAs="0096_N285P1.09.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, šedé provedení" ref="/v2/c/tradehunters__s_r_o_1/cenik/193.xml">
+<cenik>
+<id>193</id>
+<kod>0096_N285P1.09.0605.1.1</kod>
+<eanKod>8595167405215</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, šedé provedení</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">
+<sklad>
+<id>12</id>
+<kod>9997</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">code:9997</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1093</id>
+<cenik evidencePath="cenik" showAs="0096_N285Z0.00.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, šedý" ref="/v2/c/tradehunters__s_r_o_1/cenik/194.xml">
+<cenik>
+<id>194</id>
+<kod>0096_N285Z0.00.0605.1.1</kod>
+<eanKod>8595167405208</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, šedý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">
+<sklad>
+<id>12</id>
+<kod>9997</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">code:9997</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1094</id>
+<cenik evidencePath="cenik" showAs="0096_N786K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 6 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/195.xml">
+<cenik>
+<id>195</id>
+<kod>0096_N786K0.A5.0604.1.1</kod>
+<eanKod>8595167405239</eanKod>
+<nazev>Kovový regál, 175 x 75 x 30 cm, 6 polic, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">
+<sklad>
+<id>12</id>
+<kod>9997</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">code:9997</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1095</id>
+<cenik evidencePath="cenik" showAs="0096_N285Z1.00.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, pozinkované" ref="/v2/c/tradehunters__s_r_o_1/cenik/187.xml">
+<cenik>
+<id>187</id>
+<kod>0096_N285Z1.00.0605.1.1</kod>
+<eanKod>8595167405222</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, pozinkované</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">
+<sklad>
+<id>13</id>
+<kod>9996</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">code:9996</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1096</id>
+<cenik evidencePath="cenik" showAs="0096_N685Z7.00.0805.1.1: Kovový regál s policemi z MDF, 178 x 120 x 40 cm, 5 polic" ref="/v2/c/tradehunters__s_r_o_1/cenik/188.xml">
+<cenik>
+<id>188</id>
+<kod>0096_N685Z7.00.0805.1.1</kod>
+<eanKod>8595167405253</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 120 x 40 cm, 5 polic</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">
+<sklad>
+<id>13</id>
+<kod>9996</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">code:9996</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1097</id>
+<cenik evidencePath="cenik" showAs="0096_N285P0.09.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, světle šedá barva" ref="/v2/c/tradehunters__s_r_o_1/cenik/189.xml">
+<cenik>
+<id>189</id>
+<kod>0096_N285P0.09.0605.1.1</kod>
+<eanKod>8595167405192</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, světle šedá barva</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">
+<sklad>
+<id>13</id>
+<kod>9996</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">code:9996</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1098</id>
+<cenik evidencePath="cenik" showAs="0096_A10180.2.09.1.4: Dvoudveřová kovová skříň jako stavebnice, 180x60x50 cm, světle šedá" ref="/v2/c/tradehunters__s_r_o_1/cenik/190.xml">
+<cenik>
+<id>190</id>
+<kod>0096_A10180.2.09.1.4</kod>
+<eanKod>8595167400012</eanKod>
+<nazev>Dvoudveřová kovová skříň jako stavebnice, 180x60x50 cm, světle šedá</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">
+<sklad>
+<id>13</id>
+<kod>9996</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">code:9996</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1099</id>
+<cenik evidencePath="cenik" showAs="0096_C39400.2.09.1.4: Kovová skříň se 4 policemi, v demontu, 195x95x40 cm, světle šedá" ref="/v2/c/tradehunters__s_r_o_1/cenik/191.xml">
+<cenik>
+<id>191</id>
+<kod>0096_C39400.2.09.1.4</kod>
+<eanKod>8595167405178</eanKod>
+<nazev>Kovová skříň se 4 policemi, v demontu, 195x95x40 cm, světle šedá</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">
+<sklad>
+<id>13</id>
+<kod>9996</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">code:9996</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1100</id>
+<cenik evidencePath="cenik" showAs="0096_N78200.2.A5.0LMP: Kovový regál, 145 x 75 x 30 cm, 4 police, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/192.xml">
+<cenik>
+<id>192</id>
+<kod>0096_N78200.2.A5.0LMP</kod>
+<eanKod>8595167405260</eanKod>
+<nazev>Kovový regál, 145 x 75 x 30 cm, 4 police, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">
+<sklad>
+<id>13</id>
+<kod>9996</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">code:9996</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1101</id>
+<cenik evidencePath="cenik" showAs="0096_N285P1.09.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, šedé provedení" ref="/v2/c/tradehunters__s_r_o_1/cenik/193.xml">
+<cenik>
+<id>193</id>
+<kod>0096_N285P1.09.0605.1.1</kod>
+<eanKod>8595167405215</eanKod>
+<nazev>Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, šedé provedení</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">
+<sklad>
+<id>13</id>
+<kod>9996</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">code:9996</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1103</id>
+<cenik evidencePath="cenik" showAs="0096_N786K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 6 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/195.xml">
+<cenik>
+<id>195</id>
+<kod>0096_N786K0.A5.0604.1.1</kod>
+<eanKod>8595167405239</eanKod>
+<nazev>Kovový regál, 175 x 75 x 30 cm, 6 polic, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">
+<sklad>
+<id>13</id>
+<kod>9996</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">code:9996</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1104</id>
+<cenik evidencePath="cenik" showAs="0096_N785K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/186.xml">
+<cenik>
+<id>186</id>
+<kod>0096_N785K0.A5.0604.1.1</kod>
+<eanKod>8595167405246</eanKod>
+<nazev>Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">
+<sklad>
+<id>12</id>
+<kod>9997</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9997: REKLAMACE" ref="/v2/c/tradehunters__s_r_o_1/sklad/12.xml">code:9997</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1105</id>
+<cenik evidencePath="cenik" showAs="0096_N785K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/186.xml">
+<cenik>
+<id>186</id>
+<kod>0096_N785K0.A5.0604.1.1</kod>
+<eanKod>8595167405246</eanKod>
+<nazev>Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu"/>
+<regal evidencePath="umisteni-ve-skladu"/>
+<police evidencePath="umisteni-ve-skladu"/>
+<sklad evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">
+<sklad>
+<id>13</id>
+<kod>9996</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="9996: VRATKY" ref="/v2/c/tradehunters__s_r_o_1/sklad/13.xml">code:9996</typDokl>
+<datPosl/>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>0.0</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
 </skladova-karta>
 </winstrom>
