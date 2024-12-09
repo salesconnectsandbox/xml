@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <winstrom version="1.0">
 <!--  Skladová karta  -->
 <skladova-karta>
@@ -30,7 +31,7 @@
 </cenik>
 </cenik>
 <!--  Stav zásob v MJ s požadavky (desetinné číslo) - počet číslic: 19  -->
-<stavMjSPozadavky>17.0</stavMjSPozadavky>
+<stavMjSPozadavky>14.0</stavMjSPozadavky>
 <!--  Místnost (objekt) - max. délka: 20  -->
 <mistnost evidencePath="umisteni-ve-skladu" showAs="PAL: PALETA" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/2.xml">
 <!--  Umístění ve skladu  -->
@@ -72,7 +73,7 @@
 <!--  DEPRECATED, use "sklad"  -->
 <typDokl evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">code:0096</typDokl>
 <!--  Datum posl. pohybu (datum) -  -->
-<datPosl>2024-11-25</datPosl>
+<datPosl>2024-12-06</datPosl>
 <!--  Účetní období (objekt) - max. délka: 20  -->
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
 <!--  Účetní období  -->
@@ -90,7 +91,7 @@
 </ucetni-obdobi>
 </ucetObdobi>
 <!--  Dostupné množství (desetinné číslo) - počet číslic: 19  -->
-<dostupMj>17.0</dostupMj>
+<dostupMj>14.0</dostupMj>
 <!--  Maximum (desetinné číslo) - počet číslic: 19  -->
 <maxMJ>0.0</maxMJ>
 <!--  Min. zásoba MJ (desetinné číslo) - počet číslic: 19  -->
@@ -106,9 +107,9 @@
 <!--  Průměrná cena [Kč] (desetinné číslo) - počet číslic: 19  -->
 <prumCenaTuz>690.9</prumCenaTuz>
 <!--  Stav zásob [Kč] (desetinné číslo) - počet číslic: 15  -->
-<stavTuz>11745.3</stavTuz>
+<stavTuz>9672.6</stavTuz>
 <!--  Stav zásob v MJ (desetinné číslo) - počet číslic: 19  -->
-<stavMJ>17.0</stavMJ>
+<stavMJ>14.0</stavMJ>
 </skladova-karta>
 <skladova-karta>
 <id>1063</id>
@@ -197,7 +198,7 @@
 </mj1>
 </cenik>
 </cenik>
-<stavMjSPozadavky>6.0</stavMjSPozadavky>
+<stavMjSPozadavky>5.0</stavMjSPozadavky>
 <mistnost evidencePath="umisteni-ve-skladu" showAs="PAL: PALETA" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/2.xml">
 <umisteni-ve-skladu>
 <id>2</id>
@@ -227,7 +228,7 @@
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
 <typDokl evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">code:0096</typDokl>
-<datPosl>2024-12-02</datPosl>
+<datPosl>2024-12-09</datPosl>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
 <ucetni-obdobi>
 <id>1</id>
@@ -237,7 +238,7 @@
 <popis/>
 </ucetni-obdobi>
 </ucetObdobi>
-<dostupMj>6.0</dostupMj>
+<dostupMj>5.0</dostupMj>
 <maxMJ>0.0</maxMJ>
 <minMJ>0.0</minMJ>
 <pocatTuz>0.0</pocatTuz>
@@ -245,8 +246,8 @@
 <popis/>
 <pozadavkyMj>0.0</pozadavkyMj>
 <prumCenaTuz>658.0</prumCenaTuz>
-<stavTuz>3948.0</stavTuz>
-<stavMJ>6.0</stavMJ>
+<stavTuz>3290.0</stavTuz>
+<stavMJ>5.0</stavMJ>
 </skladova-karta>
 <skladova-karta>
 <id>1057</id>
@@ -570,75 +571,6 @@
 <stavMJ>1.0</stavMJ>
 </skladova-karta>
 <skladova-karta>
-<id>1062</id>
-<cenik evidencePath="cenik" showAs="0096_N78200.2.A5.0LMP: Kovový regál, 145 x 75 x 30 cm, 4 police, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/192.xml">
-<cenik>
-<id>192</id>
-<kod>0096_N78200.2.A5.0LMP</kod>
-<eanKod>8595167405260</eanKod>
-<nazev>Kovový regál, 145 x 75 x 30 cm, 4 police, bílý</nazev>
-<dodavatel evidencePath="adresar"/>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
-<merna-jednotka>
-<id>3</id>
-<nazev>kus</nazev>
-<kod>KS</kod>
-</merna-jednotka>
-</mj1>
-</cenik>
-</cenik>
-<stavMjSPozadavky>1.0</stavMjSPozadavky>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="PAL: PALETA" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/2.xml">
-<umisteni-ve-skladu>
-<id>2</id>
-<nazev>PALETA</nazev>
-<kod>PAL</kod>
-</umisteni-ve-skladu>
-</mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="J: J" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/13.xml">
-<umisteni-ve-skladu>
-<id>13</id>
-<nazev>J</nazev>
-<kod>J</kod>
-</umisteni-ve-skladu>
-</regal>
-<police evidencePath="umisteni-ve-skladu" showAs="004-01-1: 004-01-1" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/44.xml">
-<umisteni-ve-skladu>
-<id>44</id>
-<nazev>004-01-1</nazev>
-<kod>004-01-1</kod>
-</umisteni-ve-skladu>
-</police>
-<sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
-<sklad>
-<id>17</id>
-<kod>0096</kod>
-</sklad>
-</sklad>
-<!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">code:0096</typDokl>
-<datPosl>2024-11-22</datPosl>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
-<ucetni-obdobi>
-<id>1</id>
-<kod>2024</kod>
-<platiOdData>2024-01-01</platiOdData>
-<platiDoData>2024-12-31</platiDoData>
-<popis/>
-</ucetni-obdobi>
-</ucetObdobi>
-<dostupMj>1.0</dostupMj>
-<maxMJ>0.0</maxMJ>
-<minMJ>0.0</minMJ>
-<pocatTuz>0.0</pocatTuz>
-<pocatMJ>0.0</pocatMJ>
-<popis/>
-<pozadavkyMj>0.0</pozadavkyMj>
-<prumCenaTuz>526.4</prumCenaTuz>
-<stavTuz>526.4</stavTuz>
-<stavMJ>1.0</stavMJ>
-</skladova-karta>
-<skladova-karta>
 <id>1056</id>
 <cenik evidencePath="cenik" showAs="0096_N785K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/186.xml">
 <cenik>
@@ -704,6 +636,75 @@
 <popis/>
 <pozadavkyMj>0.0</pozadavkyMj>
 <prumCenaTuz>625.1</prumCenaTuz>
+<stavTuz>0.0</stavTuz>
+<stavMJ>0.0</stavMJ>
+</skladova-karta>
+<skladova-karta>
+<id>1062</id>
+<cenik evidencePath="cenik" showAs="0096_N78200.2.A5.0LMP: Kovový regál, 145 x 75 x 30 cm, 4 police, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/192.xml">
+<cenik>
+<id>192</id>
+<kod>0096_N78200.2.A5.0LMP</kod>
+<eanKod>8595167405260</eanKod>
+<nazev>Kovový regál, 145 x 75 x 30 cm, 4 police, bílý</nazev>
+<dodavatel evidencePath="adresar"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>3</id>
+<nazev>kus</nazev>
+<kod>KS</kod>
+</merna-jednotka>
+</mj1>
+</cenik>
+</cenik>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<mistnost evidencePath="umisteni-ve-skladu" showAs="PAL: PALETA" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/2.xml">
+<umisteni-ve-skladu>
+<id>2</id>
+<nazev>PALETA</nazev>
+<kod>PAL</kod>
+</umisteni-ve-skladu>
+</mistnost>
+<regal evidencePath="umisteni-ve-skladu" showAs="J: J" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/13.xml">
+<umisteni-ve-skladu>
+<id>13</id>
+<nazev>J</nazev>
+<kod>J</kod>
+</umisteni-ve-skladu>
+</regal>
+<police evidencePath="umisteni-ve-skladu" showAs="004-01-1: 004-01-1" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/44.xml">
+<umisteni-ve-skladu>
+<id>44</id>
+<nazev>004-01-1</nazev>
+<kod>004-01-1</kod>
+</umisteni-ve-skladu>
+</police>
+<sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
+<sklad>
+<id>17</id>
+<kod>0096</kod>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">code:0096</typDokl>
+<datPosl>2024-12-09</datPosl>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">
+<ucetni-obdobi>
+<id>1</id>
+<kod>2024</kod>
+<platiOdData>2024-01-01</platiOdData>
+<platiDoData>2024-12-31</platiDoData>
+<popis/>
+</ucetni-obdobi>
+</ucetObdobi>
+<dostupMj>0.0</dostupMj>
+<maxMJ>0.0</maxMJ>
+<minMJ>0.0</minMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMJ>0.0</pocatMJ>
+<popis/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<prumCenaTuz>526.4</prumCenaTuz>
 <stavTuz>0.0</stavTuz>
 <stavMJ>0.0</stavMJ>
 </skladova-karta>
