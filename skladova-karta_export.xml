@@ -73,9 +73,9 @@
 <!--  Požadavky MJ (desetinné číslo) - počet číslic: 19  -->
 <pozadavkyMj>0.0</pozadavkyMj>
 <!--  Stav zásob v MJ s požadavky (desetinné číslo) - počet číslic: 19  -->
-<stavMjSPozadavky>27.0</stavMjSPozadavky>
+<stavMjSPozadavky>26.0</stavMjSPozadavky>
 <!--  Dostupné množství (desetinné číslo) - počet číslic: 19  -->
-<dostupMj>27.0</dostupMj>
+<dostupMj>26.0</dostupMj>
 <!--  Účetní období (objekt) - max. délka: 20  -->
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <!--  Účetní období  -->
