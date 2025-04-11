@@ -124,9 +124,9 @@
 <poznam/>
 <!--  Popis (řetězec) -  -->
 <popis/>
-<!--  Platí od (celé číslo) - min. hodnota: 0 max.hodnota: 9999.0  -->
+<!--  Platí od roku (celé číslo) - min. hodnota: 0 max.hodnota: 9999.0  -->
 <platiOd>0</platiOd>
-<!--  Platí do (celé číslo) - min. hodnota: 0 max.hodnota: 9999.0  -->
+<!--  Platí do roku (celé číslo) - min. hodnota: 0 max.hodnota: 9999.0  -->
 <platiDo>9999</platiDo>
 <!--  EAN (řetězec) - max. délka: 20  -->
 <eanKod>8595167405215</eanKod>
@@ -202,18 +202,20 @@
 <typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
 <!--  Způsob výpočtu 
       marže - typVypCeny.marze
+      přirážka - typVypCeny.prirazka
       rabat - typVypCeny.rabat  -->
-<typVypCenyK showAs="marže">typVypCeny.marze</typVypCenyK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
 <!--  Výchozí cena pro množ. slevy 
       nákupní cena - typCenyVychozi.nakCena
       prodejní cena - typCenyVychozi.zaklCena  -->
 <typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
 <!--  Způsob výpočtu pro množ. slevy 
       marže - typVypCeny.marze
+      přirážka - typVypCeny.prirazka
       rabat - typVypCeny.rabat
       sleva - typVypCeny.sleva
       neuveden - typVypCeny.neuveden  -->
-<typVypCeny25K showAs="marže">typVypCeny.marze</typVypCeny25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
 <!--  Evid. výr. čís. (logická hodnota) -  -->
 <evidVyrCis>false</evidVyrCis>
 <!--  Unik. výr. čís. (logická hodnota) -  -->
@@ -305,10 +307,14 @@
 <pocetPriloh>0</pocetPriloh>
 <!--  Export na E-shop (logická hodnota) -  -->
 <exportNaEshop>true</exportNaEshop>
-<!--  Individuální minimální marže (logická hodnota) -  -->
+<!--  Hlídat minimální cenový rozdíl (logická hodnota) -  -->
 <minMarzeCenik>false</minMarzeCenik>
-<!--  Minimální marže (desetinné číslo) - počet číslic: 6  -->
+<!--  Minimální cenový rozdíl [%] (desetinné číslo) - počet číslic: 6  -->
 <minMarze>0.0</minMarze>
+<!--  Typ min. cen. rozdílu 
+      marže - typVypCeny.marze
+      přirážka - typVypCeny.prirazka  -->
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
 <!--  Evid. šar. (logická hodnota) -  -->
 <evidSarze>false</evidSarze>
 <!--  Evid. exp. (logická hodnota) -  -->
@@ -329,6 +335,8 @@
 <dodaciLhuta/>
 <!--  Umožnit prodej na kase (logická hodnota) -  -->
 <prodejKasa>true</prodejKasa>
+<!--  Datum vytvoření (datum a čas) -  -->
+<createdDate/>
 <!--  Skupina zboží (objekt) - max. délka: 20  -->
 <skupZboz evidencePath="skupina-zbozi"/>
 <!--  MJ (objekt) - max. délka: 20  -->
@@ -373,6 +381,10 @@
 <dphPren evidencePath="preneseni-dph"/>
 <!--  MJ Dodací lhůty (objekt) - max. délka: 20  -->
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
+<!--  Upravil (objekt) - max. délka: 254  -->
+<updatedBy evidencePath="uzivatel"/>
+<!--  Vytvořil (objekt) - max. délka: 254  -->
+<createdBy evidencePath="uzivatel"/>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele/>
@@ -462,9 +474,9 @@
 <popis/>
 <!--  Zobrazovat (logická hodnota) -  -->
 <visible>true</visible>
-<!--  Platí od (celé číslo) - min. hodnota: 0 max.hodnota: 9999.0  -->
+<!--  Platí od roku (celé číslo) - min. hodnota: 0 max.hodnota: 9999.0  -->
 <platiOd>0</platiOd>
-<!--  Platí do (celé číslo) - min. hodnota: 0 max.hodnota: 9999.0  -->
+<!--  Platí do roku (celé číslo) - min. hodnota: 0 max.hodnota: 9999.0  -->
 <platiDo>9999</platiDo>
 <!--  Typ umístění 
       Místnost - typUmisteniSklad.mistnost
@@ -512,13 +524,13 @@
 </skladova-karta>
 <skladova-karta>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13945</id>
-<lastUpdate>2025-03-27T12:49:27.856+01:00</lastUpdate>
+<lastUpdate>2025-04-08T08:15:45.443+02:00</lastUpdate>
 <prumCenaTuz>1234.8</prumCenaTuz>
 <prumCenaMen>1234.8</prumCenaMen>
-<stavMJ>46.0</stavMJ>
-<stavTuz>56800.8</stavTuz>
-<stavMen>56800.8</stavMen>
-<datPosl>2025-03-27</datPosl>
+<stavMJ>45.0</stavMJ>
+<stavTuz>55566.0</stavTuz>
+<stavMen>55566.0</stavMen>
+<datPosl>2025-04-08</datPosl>
 <pocatMJ>3.0</pocatMJ>
 <pocatTuz>3704.4</pocatTuz>
 <pocatMen>3704.4</pocatMen>
@@ -546,8 +558,8 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>46.0</stavMjSPozadavky>
-<dostupMj>46.0</dostupMj>
+<stavMjSPozadavky>45.0</stavMjSPozadavky>
+<dostupMj>45.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
@@ -600,9 +612,9 @@
 <nakupCena>1234.8</nakupCena>
 <cenJednotka>1.0</cenJednotka>
 <typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="marže">typVypCeny.marze</typVypCenyK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
 <typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="marže">typVypCeny.marze</typVypCeny25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -645,6 +657,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -655,6 +668,7 @@
 <techParam/>
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
+<createdDate/>
 <skupZboz evidencePath="skupina-zbozi"/>
 <mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
@@ -687,6 +701,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
+<updatedBy evidencePath="uzivatel"/>
+<createdBy evidencePath="uzivatel"/>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele/>
@@ -868,9 +884,9 @@
 <nakupCena>888.3</nakupCena>
 <cenJednotka>1.0</cenJednotka>
 <typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="marže">typVypCeny.marze</typVypCenyK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
 <typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="marže">typVypCeny.marze</typVypCeny25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -913,6 +929,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -923,6 +940,7 @@
 <techParam/>
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
+<createdDate/>
 <skupZboz evidencePath="skupina-zbozi"/>
 <mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
@@ -955,6 +973,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
+<updatedBy evidencePath="uzivatel"/>
+<createdBy evidencePath="uzivatel"/>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele/>
@@ -1136,9 +1156,9 @@
 <nakupCena>690.9</nakupCena>
 <cenJednotka>1.0</cenJednotka>
 <typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="marže">typVypCeny.marze</typVypCenyK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
 <typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="marže">typVypCeny.marze</typVypCeny25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -1181,6 +1201,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -1191,6 +1212,7 @@
 <techParam/>
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
+<createdDate/>
 <skupZboz evidencePath="skupina-zbozi"/>
 <mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
@@ -1223,6 +1245,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
+<updatedBy evidencePath="uzivatel"/>
+<createdBy evidencePath="uzivatel"/>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele/>
@@ -1316,13 +1340,13 @@
 </skladova-karta>
 <skladova-karta>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13949</id>
-<lastUpdate>2025-04-07T08:39:28.131+02:00</lastUpdate>
+<lastUpdate>2025-04-10T15:21:20.409+02:00</lastUpdate>
 <prumCenaTuz>526.4</prumCenaTuz>
 <prumCenaMen>526.4</prumCenaMen>
-<stavMJ>33.0</stavMJ>
-<stavTuz>17371.2</stavTuz>
-<stavMen>17371.2</stavMen>
-<datPosl>2025-04-07</datPosl>
+<stavMJ>31.0</stavMJ>
+<stavTuz>16318.4</stavTuz>
+<stavMen>16318.4</stavMen>
+<datPosl>2025-04-10</datPosl>
 <pocatMJ>0.0</pocatMJ>
 <pocatTuz>0.0</pocatTuz>
 <pocatMen>0.0</pocatMen>
@@ -1350,8 +1374,8 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>33.0</stavMjSPozadavky>
-<dostupMj>33.0</dostupMj>
+<stavMjSPozadavky>31.0</stavMjSPozadavky>
+<dostupMj>31.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
@@ -1404,9 +1428,9 @@
 <nakupCena>526.4</nakupCena>
 <cenJednotka>1.0</cenJednotka>
 <typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="marže">typVypCeny.marze</typVypCenyK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
 <typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="marže">typVypCeny.marze</typVypCeny25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -1449,6 +1473,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -1459,6 +1484,7 @@
 <techParam/>
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
+<createdDate/>
 <skupZboz evidencePath="skupina-zbozi"/>
 <mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
@@ -1491,6 +1517,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
+<updatedBy evidencePath="uzivatel"/>
+<createdBy evidencePath="uzivatel"/>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele/>
@@ -1584,13 +1612,13 @@
 </skladova-karta>
 <skladova-karta>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13952</id>
-<lastUpdate>2025-04-02T09:41:10.377+02:00</lastUpdate>
+<lastUpdate>2025-04-09T10:46:31.864+02:00</lastUpdate>
 <prumCenaTuz>690.9</prumCenaTuz>
 <prumCenaMen>690.9</prumCenaMen>
-<stavMJ>33.0</stavMJ>
-<stavTuz>22799.7</stavTuz>
-<stavMen>22799.7</stavMen>
-<datPosl>2025-04-02</datPosl>
+<stavMJ>30.0</stavMJ>
+<stavTuz>20727.0</stavTuz>
+<stavMen>20727.0</stavMen>
+<datPosl>2025-04-09</datPosl>
 <pocatMJ>13.0</pocatMJ>
 <pocatTuz>8981.7</pocatTuz>
 <pocatMen>8981.7</pocatMen>
@@ -1618,8 +1646,8 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>33.0</stavMjSPozadavky>
-<dostupMj>33.0</dostupMj>
+<stavMjSPozadavky>30.0</stavMjSPozadavky>
+<dostupMj>30.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
@@ -1672,9 +1700,9 @@
 <nakupCena>690.9</nakupCena>
 <cenJednotka>1.0</cenJednotka>
 <typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="marže">typVypCeny.marze</typVypCenyK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
 <typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="marže">typVypCeny.marze</typVypCeny25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -1717,6 +1745,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -1727,6 +1756,7 @@
 <techParam/>
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
+<createdDate/>
 <skupZboz evidencePath="skupina-zbozi"/>
 <mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
@@ -1759,6 +1789,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
+<updatedBy evidencePath="uzivatel"/>
+<createdBy evidencePath="uzivatel"/>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele/>
@@ -1852,13 +1884,13 @@
 </skladova-karta>
 <skladova-karta>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13951</id>
-<lastUpdate>2025-04-07T10:09:55.225+02:00</lastUpdate>
+<lastUpdate>2025-04-10T15:21:15.700+02:00</lastUpdate>
 <prumCenaTuz>658.0</prumCenaTuz>
 <prumCenaMen>658.0</prumCenaMen>
-<stavMJ>30.0</stavMJ>
-<stavTuz>19740.0</stavTuz>
-<stavMen>19740.0</stavMen>
-<datPosl>2025-04-07</datPosl>
+<stavMJ>27.0</stavMJ>
+<stavTuz>17766.0</stavTuz>
+<stavMen>17766.0</stavMen>
+<datPosl>2025-04-10</datPosl>
 <pocatMJ>0.0</pocatMJ>
 <pocatTuz>0.0</pocatTuz>
 <pocatMen>0.0</pocatMen>
@@ -1886,8 +1918,8 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>30.0</stavMjSPozadavky>
-<dostupMj>30.0</dostupMj>
+<stavMjSPozadavky>27.0</stavMjSPozadavky>
+<dostupMj>27.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
@@ -1940,9 +1972,9 @@
 <nakupCena>658.0</nakupCena>
 <cenJednotka>1.0</cenJednotka>
 <typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="marže">typVypCeny.marze</typVypCenyK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
 <typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="marže">typVypCeny.marze</typVypCeny25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -1985,6 +2017,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -1995,6 +2028,7 @@
 <techParam/>
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
+<createdDate/>
 <skupZboz evidencePath="skupina-zbozi"/>
 <mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
@@ -2027,6 +2061,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
+<updatedBy evidencePath="uzivatel"/>
+<createdBy evidencePath="uzivatel"/>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele/>
@@ -2120,13 +2156,13 @@
 </skladova-karta>
 <skladova-karta>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13943</id>
-<lastUpdate>2025-04-07T08:39:24.690+02:00</lastUpdate>
+<lastUpdate>2025-04-10T15:21:11.052+02:00</lastUpdate>
 <prumCenaTuz>625.1</prumCenaTuz>
 <prumCenaMen>625.1</prumCenaMen>
-<stavMJ>29.0</stavMJ>
-<stavTuz>18127.9</stavTuz>
-<stavMen>18127.9</stavMen>
-<datPosl>2025-04-07</datPosl>
+<stavMJ>23.0</stavMJ>
+<stavTuz>14377.3</stavTuz>
+<stavMen>14377.3</stavMen>
+<datPosl>2025-04-10</datPosl>
 <pocatMJ>0.0</pocatMJ>
 <pocatTuz>0.0</pocatTuz>
 <pocatMen>0.0</pocatMen>
@@ -2154,8 +2190,8 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>29.0</stavMjSPozadavky>
-<dostupMj>29.0</dostupMj>
+<stavMjSPozadavky>23.0</stavMjSPozadavky>
+<dostupMj>23.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
@@ -2208,9 +2244,9 @@
 <nakupCena>625.1</nakupCena>
 <cenJednotka>1.0</cenJednotka>
 <typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="marže">typVypCeny.marze</typVypCenyK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
 <typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="marže">typVypCeny.marze</typVypCeny25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -2253,6 +2289,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -2263,6 +2300,7 @@
 <techParam/>
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
+<createdDate/>
 <skupZboz evidencePath="skupina-zbozi"/>
 <mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
@@ -2295,6 +2333,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
+<updatedBy evidencePath="uzivatel"/>
+<createdBy evidencePath="uzivatel"/>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele/>
@@ -2476,9 +2516,9 @@
 <nakupCena>4603.9</nakupCena>
 <cenJednotka>1.0</cenJednotka>
 <typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="marže">typVypCeny.marze</typVypCenyK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
 <typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="marže">typVypCeny.marze</typVypCeny25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -2521,6 +2561,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -2531,6 +2572,7 @@
 <techParam/>
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
+<createdDate/>
 <skupZboz evidencePath="skupina-zbozi"/>
 <mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
@@ -2563,6 +2605,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
+<updatedBy evidencePath="uzivatel"/>
+<createdBy evidencePath="uzivatel"/>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele/>
@@ -2712,9 +2756,9 @@
 <nakupCena>3217.9</nakupCena>
 <cenJednotka>1.0</cenJednotka>
 <typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="marže">typVypCeny.marze</typVypCenyK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
 <typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="marže">typVypCeny.marze</typVypCeny25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -2757,6 +2801,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -2767,6 +2812,7 @@
 <techParam/>
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
+<createdDate/>
 <skupZboz evidencePath="skupina-zbozi"/>
 <mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
@@ -2799,6 +2845,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
+<updatedBy evidencePath="uzivatel"/>
+<createdBy evidencePath="uzivatel"/>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele/>
