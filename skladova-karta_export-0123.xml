@@ -2892,7 +2892,7 @@
 <rokProRadu>2025</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
-<cenik evidencePath="cenik"/14" Ultra Lite - černý ripstop" ref="/v2/c/tradehunters__s_r_o_1/cenik/3084.xml">
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3084.xml">
 <cenik>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3084</id>
 <lastUpdate>2025-06-21T06:38:01.991+02:00</lastUpdate>
@@ -3116,7 +3116,7 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik"/14" Ultra Lite - černý ripstop" ref="/v2/c/tradehunters__s_r_o_1/cenik/3084.xml">code:0123_PIP057-106-13</cenik>
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3084.xml">code:0123_PIP057-106-13</cenik>
 <firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
