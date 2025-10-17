@@ -77,7 +77,7 @@
 <!--  Dostupné množství (desetinné číslo) - počet číslic: 19  -->
 <dostupMj>239.0</dostupMj>
 <!--  Účetní období (objekt) - max. délka: 20  -->
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <!--  Účetní období  -->
 <ucetni-obdobi>
 <!--  ID (celé číslo) -  -->
@@ -103,7 +103,7 @@
 </ucetni-obdobi>
 </ucetObdobi>
 <!--  Ceník (objekt) - max. délka: 20  -->
-<cenik evidencePath="cenik" showAs="0123_PIP052-49-V: PIPETTO - iPad (2022) Origami No1 Original - Black" ref="/v2/c/tradehunters__s_r_o_1/cenik/3082.xml">
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3082.xml">
 <!--  Ceníky  -->
 <cenik>
 <!--  ID (celé číslo) -  -->
@@ -137,7 +137,7 @@
 <!--  Typ ceny 
       bez DPH - typCeny.bezDph
       včetně DPH - typCeny.sDph  -->
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<typCenyDphK>typCeny.bezDph</typCenyDphK>
 <!--  %Zakl (desetinné číslo) - počet číslic: 6  -->
 <procZakl>0.0</procZakl>
 <!--  Individuální cenotvorba (logická hodnota) -  -->
@@ -170,7 +170,7 @@
       nahoru - zaokrJak.nahoru
       dolů - zaokrJak.dolu
       matematicky - zaokrJak.matem  -->
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
+<zaokrJakK>zaokrJak.matem</zaokrJakK>
 <!--  Řád zaokrouhlení 
       nezaokrouhlovat - zaokrNa.zadne
       0.001 - zaokrNa.tisiciny
@@ -183,13 +183,13 @@
       10 - zaokrNa.desitky
       100 - zaokrNa.stovky
       1000 - zaokrNa.tisice  -->
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
+<zaokrNaK>zaokrNa.setiny</zaokrNaK>
 <!--  Sazba DPH 
       osvobozeno - typSzbDph.dphOsv
       snížená - typSzbDph.dphSniz
       2. snížená - typSzbDph.dphSniz2
       základní - typSzbDph.dphZakl  -->
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
 <!--  Počet desetin MJ (celé číslo) - min. hodnota: 0 max.hodnota: 6.0  -->
 <desetinMj>6</desetinMj>
 <!--  Nákupní cena (desetinné číslo) - počet číslic: 19  -->
@@ -199,23 +199,23 @@
 <!--  Výchozí cena 
       nákupní cena - typCenyVychozi.nakCena
       žádná cena - typCenyVychozi.zadna  -->
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
+<typCenyVychoziK>typCenyVychozi.nakCena</typCenyVychoziK>
 <!--  Způsob výpočtu 
       marže - typVypCeny.marze
       přirážka - typVypCeny.prirazka
       rabat - typVypCeny.rabat  -->
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
+<typVypCenyK>typVypCeny.prirazka</typVypCenyK>
 <!--  Výchozí cena pro množ. slevy 
       nákupní cena - typCenyVychozi.nakCena
       prodejní cena - typCenyVychozi.zaklCena  -->
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
+<typCenyVychozi25K>typCenyVychozi.nakCena</typCenyVychozi25K>
 <!--  Způsob výpočtu pro množ. slevy 
       marže - typVypCeny.marze
       přirážka - typVypCeny.prirazka
       rabat - typVypCeny.rabat
       sleva - typVypCeny.sleva
       neuveden - typVypCeny.neuveden  -->
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<typVypCeny25K>typVypCeny.prirazka</typVypCeny25K>
 <!--  Evidovat výrobní čísla (logická hodnota) -  -->
 <evidVyrCis>false</evidVyrCis>
 <!--  Výr. čís. musí být unikátní (logická hodnota) -  -->
@@ -252,7 +252,7 @@
       Zvíře - typZasoby.zvire
       Služba - typZasoby.sluzba
       Poplatek - typZasoby.poplatek  -->
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<typZasobyK>typZasoby.zbozi</typZasobyK>
 <!--  Balení 1 - Kód nebo název (řetězec) - max. délka: 255  -->
 <baleniNazev1/>
 <!--  Balení 2 - Kód nebo název (řetězec) - max. délka: 255  -->
@@ -314,7 +314,7 @@
 <!--  Typ min. cen. rozdílu 
       marže - typVypCeny.marze
       přirážka - typVypCeny.prirazka  -->
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<typVypoctuHlidatMinK>typVypCeny.prirazka</typVypoctuHlidatMinK>
 <!--  Evidovat šarže (logická hodnota) -  -->
 <evidSarze>false</evidSarze>
 <!--  Evidovat expirace (logická hodnota) -  -->
@@ -338,9 +338,9 @@
 <!--  Datum vytvoření (datum a čas) -  -->
 <createdDate>2025-06-21T06:30:05.374+02:00</createdDate>
 <!--  Skupina zboží (objekt) - max. délka: 20  -->
-<skupZboz evidencePath="skupina-zbozi" showAs="ZBOŽÍ: Zboží" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
+<skupZboz evidencePath="skupina-zbozi" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
 <!--  MJ (objekt) - max. délka: 20  -->
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<mj1 evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
@@ -366,7 +366,7 @@
 <!--  MJ č. 3 (objekt) - max. délka: 20  -->
 <mj3 evidencePath="merna-jednotka"/>
 <!--  MJ hmotnosti (objekt) - max. délka: 20  -->
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjHmot evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
 <!--  MJ objemu (objekt) - max. délka: 20  -->
 <mjObj evidencePath="merna-jednotka"/>
 <!--  Stát (objekt) - max. délka: 3  -->
@@ -374,7 +374,7 @@
 <!--  Nomenklatura (objekt) - max. délka: 20  -->
 <nomen evidencePath="intrastat-kod-nomenklatury"/>
 <!--  Dodavatel (objekt) - max. délka: 20  -->
-<dodavatel evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
+<dodavatel evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
 <adresar>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3195</id>
 <lastUpdate>2025-06-21T06:37:45.901+02:00</lastUpdate>
@@ -395,7 +395,7 @@
 <fax/>
 <email/>
 <www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<stat evidencePath="stat" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
 <region evidencePath="region"/>
 <eanKod/>
 <ic>26290944</ic>
@@ -412,7 +412,7 @@
 <limitPoSplatZakaz>false</limitPoSplatZakaz>
 <platceDph>true</platceDph>
 <formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<typVztahuK>typVztahu.odberDodav</typVztahuK>
 <kodPojistovny/>
 <nazevPojistovny/>
 <osloveni/>
@@ -432,7 +432,7 @@
 <rodCis/>
 <datZaloz/>
 <canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<isdocPrilohaMailuK>isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
 <createdDate>2025-06-21T06:37:45.901+02:00</createdDate>
 <skupFir evidencePath="skupina-firem"/>
 <stredisko evidencePath="stredisko"/>
@@ -441,8 +441,8 @@
 <zodpOsoba evidencePath="uzivatel"/>
 <skupCen evidencePath="cenikova-skupina"/>
 <formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <kontakty/>
 <mistaUrceni/>
 <bankovniSpojeni/>
@@ -456,9 +456,9 @@
 <!--  MJ Dodací lhůty (objekt) - max. délka: 20  -->
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <!--  Upravil (objekt) - max. délka: 254  -->
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
 <!--  Vytvořil (objekt) - max. délka: 254  -->
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele>
@@ -480,8 +480,8 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0123_PIP052-49-V: PIPETTO - iPad (2022) Origami No1 Original - Black" ref="/v2/c/tradehunters__s_r_o_1/cenik/3082.xml">code:0123_PIP052-49-V</cenik>
-<firma evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3082.xml">code:0123_PIP052-49-V</cenik>
+<firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
 </dodavatel>
@@ -497,7 +497,7 @@
 </cenik>
 </cenik>
 <!--  Sklad (objekt) - max. délka: 20  -->
-<sklad evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
+<sklad evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
 <!--  Seznam skladů  -->
 <sklad>
 <!--  ID (celé číslo) -  -->
@@ -535,11 +535,11 @@
 <!--  Štítky (řetězec) -  -->
 <stitky/>
 <!--  Řada pro příjem (objekt) - max. délka: 20  -->
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaPrijem evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
 <!--  Řada pro výdej (objekt) - max. délka: 20  -->
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<radaVydej evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
 <!--  Středisko (objekt) - max. délka: 20  -->
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<stredisko evidencePath="stredisko" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
 <!--  Účet skladu (objekt) - max. délka: 6  -->
 <primUcet evidencePath="ucet"/>
 <!--  Měna (objekt) - max. délka: 20  -->
@@ -547,9 +547,9 @@
 </sklad>
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
+<typDokl evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
 <!--  Místnost (objekt) - max. délka: 20  -->
-<mistnost evidencePath="umisteni-ve-skladu" showAs="REG: REGAL" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
+<mistnost evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
 <!--  Umístění ve skladu  -->
 <umisteni-ve-skladu>
 <!--  ID (celé číslo) -  -->
@@ -580,11 +580,11 @@
       Místnost - typUmisteniSklad.mistnost
       Regál - typUmisteniSklad.regal
       Police - typUmisteniSklad.police  -->
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
 <!--  Regál (objekt) - max. délka: 20  -->
-<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
+<regal evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:10</id>
 <lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
@@ -598,11 +598,11 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
 <!--  Police (objekt) - max. délka: 20  -->
-<police evidencePath="umisteni-ve-skladu" showAs="001-04-1: 001-04-1" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/101.xml">
+<police evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/101.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:101</id>
 <lastUpdate>2024-02-21T18:31:23.447+01:00</lastUpdate>
@@ -616,7 +616,7 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.police</typUmisteniK>
 </umisteni-ve-skladu>
 </police>
 </skladova-karta>
@@ -658,7 +658,7 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>146.0</stavMjSPozadavky>
 <dostupMj>146.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
@@ -672,7 +672,7 @@
 <rokProRadu>2025</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
-<cenik evidencePath="cenik" showAs="0123_PIP052-63-V: PIPETTO - iPad (2022) Origami No1 Original - Rose Gold" ref="/v2/c/tradehunters__s_r_o_1/cenik/3077.xml">
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3077.xml">
 <cenik>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3077</id>
 <lastUpdate>2025-06-21T06:38:01.990+02:00</lastUpdate>
@@ -688,7 +688,7 @@
 <eanKod>5060520954691</eanKod>
 <kodPlu/>
 <cenaZakl>1062.0</cenaZakl>
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<typCenyDphK>typCeny.bezDph</typCenyDphK>
 <procZakl>0.0</procZakl>
 <individCena>false</individCena>
 <limMnoz2>0.0</limMnoz2>
@@ -703,16 +703,16 @@
 <cena3>0.0</cena3>
 <cena4>0.0</cena4>
 <cena5>0.0</cena5>
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<zaokrJakK>zaokrJak.matem</zaokrJakK>
+<zaokrNaK>zaokrNa.setiny</zaokrNaK>
+<typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
 <desetinMj>6</desetinMj>
 <nakupCena>663.75</nakupCena>
 <cenJednotka>1.0</cenJednotka>
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<typCenyVychoziK>typCenyVychozi.nakCena</typCenyVychoziK>
+<typVypCenyK>typVypCeny.prirazka</typVypCenyK>
+<typCenyVychozi25K>typCenyVychozi.nakCena</typCenyVychozi25K>
+<typVypCeny25K>typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -725,7 +725,7 @@
 <objem>0.0</objem>
 <zatrid/>
 <skladove>true</skladove>
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<typZasobyK>typZasoby.zbozi</typZasobyK>
 <baleniNazev1/>
 <baleniNazev2/>
 <baleniNazev3/>
@@ -755,7 +755,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<typVypoctuHlidatMinK>typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -767,8 +767,8 @@
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
 <createdDate>2025-06-21T06:30:05.369+02:00</createdDate>
-<skupZboz evidencePath="skupina-zbozi" showAs="ZBOŽÍ: Zboží" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<skupZboz evidencePath="skupina-zbozi" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
+<mj1 evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
@@ -791,11 +791,11 @@
 </mj1>
 <mj2 evidencePath="merna-jednotka"/>
 <mj3 evidencePath="merna-jednotka"/>
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjHmot evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
 <mjObj evidencePath="merna-jednotka"/>
 <stat evidencePath="stat"/>
 <nomen evidencePath="intrastat-kod-nomenklatury"/>
-<dodavatel evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
+<dodavatel evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
 <adresar>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3195</id>
 <lastUpdate>2025-06-21T06:37:45.901+02:00</lastUpdate>
@@ -816,7 +816,7 @@
 <fax/>
 <email/>
 <www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<stat evidencePath="stat" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
 <region evidencePath="region"/>
 <eanKod/>
 <ic>26290944</ic>
@@ -833,7 +833,7 @@
 <limitPoSplatZakaz>false</limitPoSplatZakaz>
 <platceDph>true</platceDph>
 <formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<typVztahuK>typVztahu.odberDodav</typVztahuK>
 <kodPojistovny/>
 <nazevPojistovny/>
 <osloveni/>
@@ -853,7 +853,7 @@
 <rodCis/>
 <datZaloz/>
 <canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<isdocPrilohaMailuK>isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
 <createdDate>2025-06-21T06:37:45.901+02:00</createdDate>
 <skupFir evidencePath="skupina-firem"/>
 <stredisko evidencePath="stredisko"/>
@@ -862,8 +862,8 @@
 <zodpOsoba evidencePath="uzivatel"/>
 <skupCen evidencePath="cenikova-skupina"/>
 <formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <kontakty/>
 <mistaUrceni/>
 <bankovniSpojeni/>
@@ -873,8 +873,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele>
@@ -896,8 +896,8 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0123_PIP052-63-V: PIPETTO - iPad (2022) Origami No1 Original - Rose Gold" ref="/v2/c/tradehunters__s_r_o_1/cenik/3077.xml">code:0123_PIP052-63-V</cenik>
-<firma evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3077.xml">code:0123_PIP052-63-V</cenik>
+<firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
 </dodavatel>
@@ -910,7 +910,7 @@
 <szbDph>21.0</szbDph>
 </cenik>
 </cenik>
-<sklad evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
+<sklad evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:32</id>
 <lastUpdate>2025-06-21T06:36:19.667+02:00</lastUpdate>
@@ -929,16 +929,16 @@
 <automatickySklad>false</automatickySklad>
 <eanKod/>
 <stitky/>
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<radaPrijem evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaVydej evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<stredisko evidencePath="stredisko" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
 <primUcet evidencePath="ucet"/>
 <mena evidencePath="mena"/>
 </sklad>
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="REG: REGAL" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
+<typDokl evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
+<mistnost evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1</id>
 <lastUpdate>2024-02-21T18:20:27.589+01:00</lastUpdate>
@@ -952,10 +952,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
+<regal evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:10</id>
 <lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
@@ -969,10 +969,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
-<police evidencePath="umisteni-ve-skladu" showAs="002-02-1: 002-02-1" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/62.xml">
+<police evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/62.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:62</id>
 <lastUpdate>2024-02-21T18:31:23.441+01:00</lastUpdate>
@@ -986,7 +986,7 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.police</typUmisteniK>
 </umisteni-ve-skladu>
 </police>
 </skladova-karta>
@@ -1028,7 +1028,7 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>138.0</stavMjSPozadavky>
 <dostupMj>138.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
@@ -1042,7 +1042,7 @@
 <rokProRadu>2025</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
-<cenik evidencePath="cenik" showAs="0123_PIP052-50-V: PIPETTO - iPad (2022) Origami No1 Original - Dark Grey" ref="/v2/c/tradehunters__s_r_o_1/cenik/3080.xml">
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3080.xml">
 <cenik>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3080</id>
 <lastUpdate>2025-06-21T06:38:01.990+02:00</lastUpdate>
@@ -1058,7 +1058,7 @@
 <eanKod>5060520954677</eanKod>
 <kodPlu/>
 <cenaZakl>1178.0</cenaZakl>
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<typCenyDphK>typCeny.bezDph</typCenyDphK>
 <procZakl>0.0</procZakl>
 <individCena>false</individCena>
 <limMnoz2>0.0</limMnoz2>
@@ -1073,16 +1073,16 @@
 <cena3>0.0</cena3>
 <cena4>0.0</cena4>
 <cena5>0.0</cena5>
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<zaokrJakK>zaokrJak.matem</zaokrJakK>
+<zaokrNaK>zaokrNa.setiny</zaokrNaK>
+<typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
 <desetinMj>6</desetinMj>
 <nakupCena>736.25</nakupCena>
 <cenJednotka>1.0</cenJednotka>
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<typCenyVychoziK>typCenyVychozi.nakCena</typCenyVychoziK>
+<typVypCenyK>typVypCeny.prirazka</typVypCenyK>
+<typCenyVychozi25K>typCenyVychozi.nakCena</typCenyVychozi25K>
+<typVypCeny25K>typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -1095,7 +1095,7 @@
 <objem>0.0</objem>
 <zatrid/>
 <skladove>true</skladove>
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<typZasobyK>typZasoby.zbozi</typZasobyK>
 <baleniNazev1/>
 <baleniNazev2/>
 <baleniNazev3/>
@@ -1125,7 +1125,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<typVypoctuHlidatMinK>typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -1137,8 +1137,8 @@
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
 <createdDate>2025-06-21T06:30:05.372+02:00</createdDate>
-<skupZboz evidencePath="skupina-zbozi" showAs="ZBOŽÍ: Zboží" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<skupZboz evidencePath="skupina-zbozi" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
+<mj1 evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
@@ -1161,11 +1161,11 @@
 </mj1>
 <mj2 evidencePath="merna-jednotka"/>
 <mj3 evidencePath="merna-jednotka"/>
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjHmot evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
 <mjObj evidencePath="merna-jednotka"/>
 <stat evidencePath="stat"/>
 <nomen evidencePath="intrastat-kod-nomenklatury"/>
-<dodavatel evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
+<dodavatel evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
 <adresar>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3195</id>
 <lastUpdate>2025-06-21T06:37:45.901+02:00</lastUpdate>
@@ -1186,7 +1186,7 @@
 <fax/>
 <email/>
 <www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<stat evidencePath="stat" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
 <region evidencePath="region"/>
 <eanKod/>
 <ic>26290944</ic>
@@ -1203,7 +1203,7 @@
 <limitPoSplatZakaz>false</limitPoSplatZakaz>
 <platceDph>true</platceDph>
 <formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<typVztahuK>typVztahu.odberDodav</typVztahuK>
 <kodPojistovny/>
 <nazevPojistovny/>
 <osloveni/>
@@ -1223,7 +1223,7 @@
 <rodCis/>
 <datZaloz/>
 <canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<isdocPrilohaMailuK>isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
 <createdDate>2025-06-21T06:37:45.901+02:00</createdDate>
 <skupFir evidencePath="skupina-firem"/>
 <stredisko evidencePath="stredisko"/>
@@ -1232,8 +1232,8 @@
 <zodpOsoba evidencePath="uzivatel"/>
 <skupCen evidencePath="cenikova-skupina"/>
 <formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <kontakty/>
 <mistaUrceni/>
 <bankovniSpojeni/>
@@ -1243,8 +1243,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele>
@@ -1266,8 +1266,8 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0123_PIP052-50-V: PIPETTO - iPad (2022) Origami No1 Original - Dark Grey" ref="/v2/c/tradehunters__s_r_o_1/cenik/3080.xml">code:0123_PIP052-50-V</cenik>
-<firma evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3080.xml">code:0123_PIP052-50-V</cenik>
+<firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
 </dodavatel>
@@ -1280,7 +1280,7 @@
 <szbDph>21.0</szbDph>
 </cenik>
 </cenik>
-<sklad evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
+<sklad evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:32</id>
 <lastUpdate>2025-06-21T06:36:19.667+02:00</lastUpdate>
@@ -1299,16 +1299,16 @@
 <automatickySklad>false</automatickySklad>
 <eanKod/>
 <stitky/>
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<radaPrijem evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaVydej evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<stredisko evidencePath="stredisko" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
 <primUcet evidencePath="ucet"/>
 <mena evidencePath="mena"/>
 </sklad>
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="REG: REGAL" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
+<typDokl evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
+<mistnost evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1</id>
 <lastUpdate>2024-02-21T18:20:27.589+01:00</lastUpdate>
@@ -1322,10 +1322,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
+<regal evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:10</id>
 <lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
@@ -1339,10 +1339,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
-<police evidencePath="umisteni-ve-skladu" showAs="001-03-1: 001-03-1" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/81.xml">
+<police evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/81.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:81</id>
 <lastUpdate>2024-02-21T18:31:23.444+01:00</lastUpdate>
@@ -1356,7 +1356,7 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.police</typUmisteniK>
 </umisteni-ve-skladu>
 </police>
 </skladova-karta>
@@ -1398,7 +1398,7 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>129.0</stavMjSPozadavky>
 <dostupMj>129.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
@@ -1412,7 +1412,7 @@
 <rokProRadu>2025</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
-<cenik evidencePath="cenik" showAs="0123_PIP054P-49-V: PIPETTO - iPad (2022) Origami No2 Pencil Shield - Black" ref="/v2/c/tradehunters__s_r_o_1/cenik/3081.xml">
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3081.xml">
 <cenik>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3081</id>
 <lastUpdate>2025-06-21T06:38:01.990+02:00</lastUpdate>
@@ -1428,7 +1428,7 @@
 <eanKod>5060520954776</eanKod>
 <kodPlu/>
 <cenaZakl>1949.0</cenaZakl>
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<typCenyDphK>typCeny.bezDph</typCenyDphK>
 <procZakl>0.0</procZakl>
 <individCena>false</individCena>
 <limMnoz2>0.0</limMnoz2>
@@ -1443,16 +1443,16 @@
 <cena3>0.0</cena3>
 <cena4>0.0</cena4>
 <cena5>0.0</cena5>
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<zaokrJakK>zaokrJak.matem</zaokrJakK>
+<zaokrNaK>zaokrNa.setiny</zaokrNaK>
+<typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
 <desetinMj>6</desetinMj>
 <nakupCena>1218.125</nakupCena>
 <cenJednotka>1.0</cenJednotka>
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<typCenyVychoziK>typCenyVychozi.nakCena</typCenyVychoziK>
+<typVypCenyK>typVypCeny.prirazka</typVypCenyK>
+<typCenyVychozi25K>typCenyVychozi.nakCena</typCenyVychozi25K>
+<typVypCeny25K>typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -1465,7 +1465,7 @@
 <objem>0.0</objem>
 <zatrid/>
 <skladove>true</skladove>
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<typZasobyK>typZasoby.zbozi</typZasobyK>
 <baleniNazev1/>
 <baleniNazev2/>
 <baleniNazev3/>
@@ -1495,7 +1495,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<typVypoctuHlidatMinK>typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -1507,8 +1507,8 @@
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
 <createdDate>2025-06-21T06:30:05.373+02:00</createdDate>
-<skupZboz evidencePath="skupina-zbozi" showAs="ZBOŽÍ: Zboží" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<skupZboz evidencePath="skupina-zbozi" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
+<mj1 evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
@@ -1531,11 +1531,11 @@
 </mj1>
 <mj2 evidencePath="merna-jednotka"/>
 <mj3 evidencePath="merna-jednotka"/>
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjHmot evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
 <mjObj evidencePath="merna-jednotka"/>
 <stat evidencePath="stat"/>
 <nomen evidencePath="intrastat-kod-nomenklatury"/>
-<dodavatel evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
+<dodavatel evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
 <adresar>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3195</id>
 <lastUpdate>2025-06-21T06:37:45.901+02:00</lastUpdate>
@@ -1556,7 +1556,7 @@
 <fax/>
 <email/>
 <www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<stat evidencePath="stat" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
 <region evidencePath="region"/>
 <eanKod/>
 <ic>26290944</ic>
@@ -1573,7 +1573,7 @@
 <limitPoSplatZakaz>false</limitPoSplatZakaz>
 <platceDph>true</platceDph>
 <formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<typVztahuK>typVztahu.odberDodav</typVztahuK>
 <kodPojistovny/>
 <nazevPojistovny/>
 <osloveni/>
@@ -1593,7 +1593,7 @@
 <rodCis/>
 <datZaloz/>
 <canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<isdocPrilohaMailuK>isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
 <createdDate>2025-06-21T06:37:45.901+02:00</createdDate>
 <skupFir evidencePath="skupina-firem"/>
 <stredisko evidencePath="stredisko"/>
@@ -1602,8 +1602,8 @@
 <zodpOsoba evidencePath="uzivatel"/>
 <skupCen evidencePath="cenikova-skupina"/>
 <formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <kontakty/>
 <mistaUrceni/>
 <bankovniSpojeni/>
@@ -1613,8 +1613,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele>
@@ -1636,8 +1636,8 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0123_PIP054P-49-V: PIPETTO - iPad (2022) Origami No2 Pencil Shield - Black" ref="/v2/c/tradehunters__s_r_o_1/cenik/3081.xml">code:0123_PIP054P-49-V</cenik>
-<firma evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3081.xml">code:0123_PIP054P-49-V</cenik>
+<firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
 </dodavatel>
@@ -1650,7 +1650,7 @@
 <szbDph>21.0</szbDph>
 </cenik>
 </cenik>
-<sklad evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
+<sklad evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:32</id>
 <lastUpdate>2025-06-21T06:36:19.667+02:00</lastUpdate>
@@ -1669,16 +1669,16 @@
 <automatickySklad>false</automatickySklad>
 <eanKod/>
 <stitky/>
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<radaPrijem evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaVydej evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<stredisko evidencePath="stredisko" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
 <primUcet evidencePath="ucet"/>
 <mena evidencePath="mena"/>
 </sklad>
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="REG: REGAL" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
+<typDokl evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
+<mistnost evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1</id>
 <lastUpdate>2024-02-21T18:20:27.589+01:00</lastUpdate>
@@ -1692,10 +1692,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
+<regal evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:10</id>
 <lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
@@ -1709,10 +1709,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
-<police evidencePath="umisteni-ve-skladu" showAs="002-02-2: 002-02-2" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/72.xml">
+<police evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/72.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:72</id>
 <lastUpdate>2024-02-21T18:31:23.443+01:00</lastUpdate>
@@ -1726,7 +1726,7 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.police</typUmisteniK>
 </umisteni-ve-skladu>
 </police>
 </skladova-karta>
@@ -1768,7 +1768,7 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>81.0</stavMjSPozadavky>
 <dostupMj>81.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
@@ -1782,7 +1782,7 @@
 <rokProRadu>2025</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
-<cenik evidencePath="cenik" showAs="0123_PIP052-113-V: PIPETTO - iPad (2022) Origami No1 Original - Dark Blue" ref="/v2/c/tradehunters__s_r_o_1/cenik/3078.xml">
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3078.xml">
 <cenik>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3078</id>
 <lastUpdate>2025-06-21T06:38:01.990+02:00</lastUpdate>
@@ -1798,7 +1798,7 @@
 <eanKod>5060520954707</eanKod>
 <kodPlu/>
 <cenaZakl>980.0</cenaZakl>
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<typCenyDphK>typCeny.bezDph</typCenyDphK>
 <procZakl>0.0</procZakl>
 <individCena>false</individCena>
 <limMnoz2>0.0</limMnoz2>
@@ -1813,16 +1813,16 @@
 <cena3>0.0</cena3>
 <cena4>0.0</cena4>
 <cena5>0.0</cena5>
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<zaokrJakK>zaokrJak.matem</zaokrJakK>
+<zaokrNaK>zaokrNa.setiny</zaokrNaK>
+<typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
 <desetinMj>6</desetinMj>
 <nakupCena>612.5</nakupCena>
 <cenJednotka>1.0</cenJednotka>
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<typCenyVychoziK>typCenyVychozi.nakCena</typCenyVychoziK>
+<typVypCenyK>typVypCeny.prirazka</typVypCenyK>
+<typCenyVychozi25K>typCenyVychozi.nakCena</typCenyVychozi25K>
+<typVypCeny25K>typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -1835,7 +1835,7 @@
 <objem>0.0</objem>
 <zatrid/>
 <skladove>true</skladove>
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<typZasobyK>typZasoby.zbozi</typZasobyK>
 <baleniNazev1/>
 <baleniNazev2/>
 <baleniNazev3/>
@@ -1865,7 +1865,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<typVypoctuHlidatMinK>typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -1877,8 +1877,8 @@
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
 <createdDate>2025-06-21T06:30:05.370+02:00</createdDate>
-<skupZboz evidencePath="skupina-zbozi" showAs="ZBOŽÍ: Zboží" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<skupZboz evidencePath="skupina-zbozi" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
+<mj1 evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
@@ -1901,11 +1901,11 @@
 </mj1>
 <mj2 evidencePath="merna-jednotka"/>
 <mj3 evidencePath="merna-jednotka"/>
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjHmot evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
 <mjObj evidencePath="merna-jednotka"/>
 <stat evidencePath="stat"/>
 <nomen evidencePath="intrastat-kod-nomenklatury"/>
-<dodavatel evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
+<dodavatel evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
 <adresar>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3195</id>
 <lastUpdate>2025-06-21T06:37:45.901+02:00</lastUpdate>
@@ -1926,7 +1926,7 @@
 <fax/>
 <email/>
 <www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<stat evidencePath="stat" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
 <region evidencePath="region"/>
 <eanKod/>
 <ic>26290944</ic>
@@ -1943,7 +1943,7 @@
 <limitPoSplatZakaz>false</limitPoSplatZakaz>
 <platceDph>true</platceDph>
 <formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<typVztahuK>typVztahu.odberDodav</typVztahuK>
 <kodPojistovny/>
 <nazevPojistovny/>
 <osloveni/>
@@ -1963,7 +1963,7 @@
 <rodCis/>
 <datZaloz/>
 <canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<isdocPrilohaMailuK>isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
 <createdDate>2025-06-21T06:37:45.901+02:00</createdDate>
 <skupFir evidencePath="skupina-firem"/>
 <stredisko evidencePath="stredisko"/>
@@ -1972,8 +1972,8 @@
 <zodpOsoba evidencePath="uzivatel"/>
 <skupCen evidencePath="cenikova-skupina"/>
 <formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <kontakty/>
 <mistaUrceni/>
 <bankovniSpojeni/>
@@ -1983,8 +1983,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele>
@@ -2006,8 +2006,8 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0123_PIP052-113-V: PIPETTO - iPad (2022) Origami No1 Original - Dark Blue" ref="/v2/c/tradehunters__s_r_o_1/cenik/3078.xml">code:0123_PIP052-113-V</cenik>
-<firma evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3078.xml">code:0123_PIP052-113-V</cenik>
+<firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
 </dodavatel>
@@ -2020,7 +2020,7 @@
 <szbDph>21.0</szbDph>
 </cenik>
 </cenik>
-<sklad evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
+<sklad evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:32</id>
 <lastUpdate>2025-06-21T06:36:19.667+02:00</lastUpdate>
@@ -2039,16 +2039,16 @@
 <automatickySklad>false</automatickySklad>
 <eanKod/>
 <stitky/>
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<radaPrijem evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaVydej evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<stredisko evidencePath="stredisko" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
 <primUcet evidencePath="ucet"/>
 <mena evidencePath="mena"/>
 </sklad>
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="REG: REGAL" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
+<typDokl evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
+<mistnost evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1</id>
 <lastUpdate>2024-02-21T18:20:27.589+01:00</lastUpdate>
@@ -2062,10 +2062,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
+<regal evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:10</id>
 <lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
@@ -2079,10 +2079,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
-<police evidencePath="umisteni-ve-skladu" showAs="002-04-2: 002-04-2" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/112.xml">
+<police evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/112.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:112</id>
 <lastUpdate>2024-02-21T18:31:23.448+01:00</lastUpdate>
@@ -2096,7 +2096,7 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.police</typUmisteniK>
 </umisteni-ve-skladu>
 </police>
 </skladova-karta>
@@ -2138,7 +2138,7 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>65.0</stavMjSPozadavky>
 <dostupMj>65.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
@@ -2152,7 +2152,7 @@
 <rokProRadu>2025</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
-<cenik evidencePath="cenik" showAs="0123_PIP053-49-V: PIPETTO - iPad (2022) Origami No3 Pencil Case - Black" ref="/v2/c/tradehunters__s_r_o_1/cenik/3085.xml">
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3085.xml">
 <cenik>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3085</id>
 <lastUpdate>2025-06-21T06:38:01.990+02:00</lastUpdate>
@@ -2168,7 +2168,7 @@
 <eanKod>5060520954721</eanKod>
 <kodPlu/>
 <cenaZakl>1127.0</cenaZakl>
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<typCenyDphK>typCeny.bezDph</typCenyDphK>
 <procZakl>0.0</procZakl>
 <individCena>false</individCena>
 <limMnoz2>0.0</limMnoz2>
@@ -2183,16 +2183,16 @@
 <cena3>0.0</cena3>
 <cena4>0.0</cena4>
 <cena5>0.0</cena5>
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<zaokrJakK>zaokrJak.matem</zaokrJakK>
+<zaokrNaK>zaokrNa.setiny</zaokrNaK>
+<typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
 <desetinMj>6</desetinMj>
 <nakupCena>704.375</nakupCena>
 <cenJednotka>1.0</cenJednotka>
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<typCenyVychoziK>typCenyVychozi.nakCena</typCenyVychoziK>
+<typVypCenyK>typVypCeny.prirazka</typVypCenyK>
+<typCenyVychozi25K>typCenyVychozi.nakCena</typCenyVychozi25K>
+<typVypCeny25K>typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -2205,7 +2205,7 @@
 <objem>0.0</objem>
 <zatrid/>
 <skladove>true</skladove>
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<typZasobyK>typZasoby.zbozi</typZasobyK>
 <baleniNazev1/>
 <baleniNazev2/>
 <baleniNazev3/>
@@ -2235,7 +2235,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<typVypoctuHlidatMinK>typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -2247,8 +2247,8 @@
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
 <createdDate>2025-06-21T06:30:05.377+02:00</createdDate>
-<skupZboz evidencePath="skupina-zbozi" showAs="ZBOŽÍ: Zboží" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<skupZboz evidencePath="skupina-zbozi" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
+<mj1 evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
@@ -2271,11 +2271,11 @@
 </mj1>
 <mj2 evidencePath="merna-jednotka"/>
 <mj3 evidencePath="merna-jednotka"/>
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjHmot evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
 <mjObj evidencePath="merna-jednotka"/>
 <stat evidencePath="stat"/>
 <nomen evidencePath="intrastat-kod-nomenklatury"/>
-<dodavatel evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
+<dodavatel evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
 <adresar>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3195</id>
 <lastUpdate>2025-06-21T06:37:45.901+02:00</lastUpdate>
@@ -2296,7 +2296,7 @@
 <fax/>
 <email/>
 <www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<stat evidencePath="stat" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
 <region evidencePath="region"/>
 <eanKod/>
 <ic>26290944</ic>
@@ -2313,7 +2313,7 @@
 <limitPoSplatZakaz>false</limitPoSplatZakaz>
 <platceDph>true</platceDph>
 <formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<typVztahuK>typVztahu.odberDodav</typVztahuK>
 <kodPojistovny/>
 <nazevPojistovny/>
 <osloveni/>
@@ -2333,7 +2333,7 @@
 <rodCis/>
 <datZaloz/>
 <canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<isdocPrilohaMailuK>isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
 <createdDate>2025-06-21T06:37:45.901+02:00</createdDate>
 <skupFir evidencePath="skupina-firem"/>
 <stredisko evidencePath="stredisko"/>
@@ -2342,8 +2342,8 @@
 <zodpOsoba evidencePath="uzivatel"/>
 <skupCen evidencePath="cenikova-skupina"/>
 <formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <kontakty/>
 <mistaUrceni/>
 <bankovniSpojeni/>
@@ -2353,8 +2353,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele>
@@ -2376,8 +2376,8 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0123_PIP053-49-V: PIPETTO - iPad (2022) Origami No3 Pencil Case - Black" ref="/v2/c/tradehunters__s_r_o_1/cenik/3085.xml">code:0123_PIP053-49-V</cenik>
-<firma evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3085.xml">code:0123_PIP053-49-V</cenik>
+<firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
 </dodavatel>
@@ -2390,7 +2390,7 @@
 <szbDph>21.0</szbDph>
 </cenik>
 </cenik>
-<sklad evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
+<sklad evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:32</id>
 <lastUpdate>2025-06-21T06:36:19.667+02:00</lastUpdate>
@@ -2409,16 +2409,16 @@
 <automatickySklad>false</automatickySklad>
 <eanKod/>
 <stitky/>
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<radaPrijem evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaVydej evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<stredisko evidencePath="stredisko" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
 <primUcet evidencePath="ucet"/>
 <mena evidencePath="mena"/>
 </sklad>
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="REG: REGAL" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
+<typDokl evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
+<mistnost evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1</id>
 <lastUpdate>2024-02-21T18:20:27.589+01:00</lastUpdate>
@@ -2432,10 +2432,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
+<regal evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:10</id>
 <lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
@@ -2449,10 +2449,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
-<police evidencePath="umisteni-ve-skladu" showAs="002-04-1: 002-04-1" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/102.xml">
+<police evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/102.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:102</id>
 <lastUpdate>2024-02-21T18:31:23.447+01:00</lastUpdate>
@@ -2466,7 +2466,7 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.police</typUmisteniK>
 </umisteni-ve-skladu>
 </police>
 </skladova-karta>
@@ -2508,7 +2508,7 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>53.0</stavMjSPozadavky>
 <dostupMj>53.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
@@ -2522,7 +2522,7 @@
 <rokProRadu>2025</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
-<cenik evidencePath="cenik" showAs="0123_PIP054P-113-V: PIPETTO - iPad (2022) Origami No2 Pencil Shield - Dark Blue" ref="/v2/c/tradehunters__s_r_o_1/cenik/3083.xml">
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3083.xml">
 <cenik>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3083</id>
 <lastUpdate>2025-06-21T06:38:01.990+02:00</lastUpdate>
@@ -2538,7 +2538,7 @@
 <eanKod>5060520954813</eanKod>
 <kodPlu/>
 <cenaZakl>1333.0</cenaZakl>
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<typCenyDphK>typCeny.bezDph</typCenyDphK>
 <procZakl>0.0</procZakl>
 <individCena>false</individCena>
 <limMnoz2>0.0</limMnoz2>
@@ -2553,16 +2553,16 @@
 <cena3>0.0</cena3>
 <cena4>0.0</cena4>
 <cena5>0.0</cena5>
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<zaokrJakK>zaokrJak.matem</zaokrJakK>
+<zaokrNaK>zaokrNa.setiny</zaokrNaK>
+<typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
 <desetinMj>6</desetinMj>
 <nakupCena>833.125</nakupCena>
 <cenJednotka>1.0</cenJednotka>
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<typCenyVychoziK>typCenyVychozi.nakCena</typCenyVychoziK>
+<typVypCenyK>typVypCeny.prirazka</typVypCenyK>
+<typCenyVychozi25K>typCenyVychozi.nakCena</typCenyVychozi25K>
+<typVypCeny25K>typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -2575,7 +2575,7 @@
 <objem>0.0</objem>
 <zatrid/>
 <skladove>true</skladove>
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<typZasobyK>typZasoby.zbozi</typZasobyK>
 <baleniNazev1/>
 <baleniNazev2/>
 <baleniNazev3/>
@@ -2605,7 +2605,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<typVypoctuHlidatMinK>typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -2617,8 +2617,8 @@
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
 <createdDate>2025-06-21T06:30:05.375+02:00</createdDate>
-<skupZboz evidencePath="skupina-zbozi" showAs="ZBOŽÍ: Zboží" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<skupZboz evidencePath="skupina-zbozi" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
+<mj1 evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
@@ -2641,11 +2641,11 @@
 </mj1>
 <mj2 evidencePath="merna-jednotka"/>
 <mj3 evidencePath="merna-jednotka"/>
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjHmot evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
 <mjObj evidencePath="merna-jednotka"/>
 <stat evidencePath="stat"/>
 <nomen evidencePath="intrastat-kod-nomenklatury"/>
-<dodavatel evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
+<dodavatel evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
 <adresar>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3195</id>
 <lastUpdate>2025-06-21T06:37:45.901+02:00</lastUpdate>
@@ -2666,7 +2666,7 @@
 <fax/>
 <email/>
 <www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<stat evidencePath="stat" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
 <region evidencePath="region"/>
 <eanKod/>
 <ic>26290944</ic>
@@ -2683,7 +2683,7 @@
 <limitPoSplatZakaz>false</limitPoSplatZakaz>
 <platceDph>true</platceDph>
 <formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<typVztahuK>typVztahu.odberDodav</typVztahuK>
 <kodPojistovny/>
 <nazevPojistovny/>
 <osloveni/>
@@ -2703,7 +2703,7 @@
 <rodCis/>
 <datZaloz/>
 <canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<isdocPrilohaMailuK>isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
 <createdDate>2025-06-21T06:37:45.901+02:00</createdDate>
 <skupFir evidencePath="skupina-firem"/>
 <stredisko evidencePath="stredisko"/>
@@ -2712,8 +2712,8 @@
 <zodpOsoba evidencePath="uzivatel"/>
 <skupCen evidencePath="cenikova-skupina"/>
 <formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <kontakty/>
 <mistaUrceni/>
 <bankovniSpojeni/>
@@ -2723,8 +2723,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele>
@@ -2746,8 +2746,8 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0123_PIP054P-113-V: PIPETTO - iPad (2022) Origami No2 Pencil Shield - Dark Blue" ref="/v2/c/tradehunters__s_r_o_1/cenik/3083.xml">code:0123_PIP054P-113-V</cenik>
-<firma evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3083.xml">code:0123_PIP054P-113-V</cenik>
+<firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
 </dodavatel>
@@ -2760,7 +2760,7 @@
 <szbDph>21.0</szbDph>
 </cenik>
 </cenik>
-<sklad evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
+<sklad evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:32</id>
 <lastUpdate>2025-06-21T06:36:19.667+02:00</lastUpdate>
@@ -2779,16 +2779,16 @@
 <automatickySklad>false</automatickySklad>
 <eanKod/>
 <stitky/>
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<radaPrijem evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaVydej evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<stredisko evidencePath="stredisko" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
 <primUcet evidencePath="ucet"/>
 <mena evidencePath="mena"/>
 </sklad>
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="REG: REGAL" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
+<typDokl evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
+<mistnost evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1</id>
 <lastUpdate>2024-02-21T18:20:27.589+01:00</lastUpdate>
@@ -2802,10 +2802,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
+<regal evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:10</id>
 <lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
@@ -2819,10 +2819,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
-<police evidencePath="umisteni-ve-skladu" showAs="002-03-2: 002-03-2" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/92.xml">
+<police evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/92.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:92</id>
 <lastUpdate>2024-02-21T18:31:23.446+01:00</lastUpdate>
@@ -2836,7 +2836,7 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.police</typUmisteniK>
 </umisteni-ve-skladu>
 </police>
 </skladova-karta>
@@ -2878,7 +2878,7 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>17.0</stavMjSPozadavky>
 <dostupMj>17.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
@@ -2892,7 +2892,7 @@
 <rokProRadu>2025</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
-<cenik evidencePath="cenik" showAs="0123_PIP057-106-13: PIPETTO - MacBook Sleeve 13"/14" Ultra Lite - černý ripstop" ref="/v2/c/tradehunters__s_r_o_1/cenik/3084.xml">
+<cenik evidencePath="cenik"/14" Ultra Lite - černý ripstop" ref="/v2/c/tradehunters__s_r_o_1/cenik/3084.xml">
 <cenik>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3084</id>
 <lastUpdate>2025-06-21T06:38:01.991+02:00</lastUpdate>
@@ -2908,7 +2908,7 @@
 <eanKod>5060520953496</eanKod>
 <kodPlu/>
 <cenaZakl>1399.0</cenaZakl>
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<typCenyDphK>typCeny.bezDph</typCenyDphK>
 <procZakl>0.0</procZakl>
 <individCena>false</individCena>
 <limMnoz2>0.0</limMnoz2>
@@ -2923,16 +2923,16 @@
 <cena3>0.0</cena3>
 <cena4>0.0</cena4>
 <cena5>0.0</cena5>
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<zaokrJakK>zaokrJak.matem</zaokrJakK>
+<zaokrNaK>zaokrNa.setiny</zaokrNaK>
+<typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
 <desetinMj>6</desetinMj>
 <nakupCena>874.375</nakupCena>
 <cenJednotka>1.0</cenJednotka>
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<typCenyVychoziK>typCenyVychozi.nakCena</typCenyVychoziK>
+<typVypCenyK>typVypCeny.prirazka</typVypCenyK>
+<typCenyVychozi25K>typCenyVychozi.nakCena</typCenyVychozi25K>
+<typVypCeny25K>typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -2945,7 +2945,7 @@
 <objem>0.0</objem>
 <zatrid/>
 <skladove>true</skladove>
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<typZasobyK>typZasoby.zbozi</typZasobyK>
 <baleniNazev1/>
 <baleniNazev2/>
 <baleniNazev3/>
@@ -2975,7 +2975,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<typVypoctuHlidatMinK>typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -2987,8 +2987,8 @@
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
 <createdDate>2025-06-21T06:30:05.376+02:00</createdDate>
-<skupZboz evidencePath="skupina-zbozi" showAs="ZBOŽÍ: Zboží" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<skupZboz evidencePath="skupina-zbozi" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
+<mj1 evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
@@ -3011,11 +3011,11 @@
 </mj1>
 <mj2 evidencePath="merna-jednotka"/>
 <mj3 evidencePath="merna-jednotka"/>
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjHmot evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
 <mjObj evidencePath="merna-jednotka"/>
 <stat evidencePath="stat"/>
 <nomen evidencePath="intrastat-kod-nomenklatury"/>
-<dodavatel evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
+<dodavatel evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
 <adresar>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3195</id>
 <lastUpdate>2025-06-21T06:37:45.901+02:00</lastUpdate>
@@ -3036,7 +3036,7 @@
 <fax/>
 <email/>
 <www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<stat evidencePath="stat" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
 <region evidencePath="region"/>
 <eanKod/>
 <ic>26290944</ic>
@@ -3053,7 +3053,7 @@
 <limitPoSplatZakaz>false</limitPoSplatZakaz>
 <platceDph>true</platceDph>
 <formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<typVztahuK>typVztahu.odberDodav</typVztahuK>
 <kodPojistovny/>
 <nazevPojistovny/>
 <osloveni/>
@@ -3073,7 +3073,7 @@
 <rodCis/>
 <datZaloz/>
 <canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<isdocPrilohaMailuK>isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
 <createdDate>2025-06-21T06:37:45.901+02:00</createdDate>
 <skupFir evidencePath="skupina-firem"/>
 <stredisko evidencePath="stredisko"/>
@@ -3082,8 +3082,8 @@
 <zodpOsoba evidencePath="uzivatel"/>
 <skupCen evidencePath="cenikova-skupina"/>
 <formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <kontakty/>
 <mistaUrceni/>
 <bankovniSpojeni/>
@@ -3093,8 +3093,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele>
@@ -3116,8 +3116,8 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0123_PIP057-106-13: PIPETTO - MacBook Sleeve 13"/14" Ultra Lite - černý ripstop" ref="/v2/c/tradehunters__s_r_o_1/cenik/3084.xml">code:0123_PIP057-106-13</cenik>
-<firma evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
+<cenik evidencePath="cenik"/14" Ultra Lite - černý ripstop" ref="/v2/c/tradehunters__s_r_o_1/cenik/3084.xml">code:0123_PIP057-106-13</cenik>
+<firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
 </dodavatel>
@@ -3130,7 +3130,7 @@
 <szbDph>21.0</szbDph>
 </cenik>
 </cenik>
-<sklad evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
+<sklad evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:32</id>
 <lastUpdate>2025-06-21T06:36:19.667+02:00</lastUpdate>
@@ -3149,16 +3149,16 @@
 <automatickySklad>false</automatickySklad>
 <eanKod/>
 <stitky/>
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<radaPrijem evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaVydej evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<stredisko evidencePath="stredisko" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
 <primUcet evidencePath="ucet"/>
 <mena evidencePath="mena"/>
 </sklad>
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="REG: REGAL" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
+<typDokl evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
+<mistnost evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1</id>
 <lastUpdate>2024-02-21T18:20:27.589+01:00</lastUpdate>
@@ -3172,10 +3172,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
+<regal evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:10</id>
 <lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
@@ -3189,10 +3189,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
-<police evidencePath="umisteni-ve-skladu" showAs="001-03-2: 001-03-2" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/91.xml">
+<police evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/91.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:91</id>
 <lastUpdate>2024-02-21T18:31:23.445+01:00</lastUpdate>
@@ -3206,7 +3206,7 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.police</typUmisteniK>
 </umisteni-ve-skladu>
 </police>
 </skladova-karta>
@@ -3248,7 +3248,7 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>16.0</stavMjSPozadavky>
 <dostupMj>16.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
@@ -3262,7 +3262,7 @@
 <rokProRadu>2025</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
-<cenik evidencePath="cenik" showAs="0123_PIP053-63-V: PIPETTO - iPad (2022) Origami No3 Pencil Case - Rose Gold" ref="/v2/c/tradehunters__s_r_o_1/cenik/3079.xml">
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3079.xml">
 <cenik>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3079</id>
 <lastUpdate>2025-06-21T06:38:01.990+02:00</lastUpdate>
@@ -3278,7 +3278,7 @@
 <eanKod>5060520954745</eanKod>
 <kodPlu/>
 <cenaZakl>1127.0</cenaZakl>
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<typCenyDphK>typCeny.bezDph</typCenyDphK>
 <procZakl>0.0</procZakl>
 <individCena>false</individCena>
 <limMnoz2>0.0</limMnoz2>
@@ -3293,16 +3293,16 @@
 <cena3>0.0</cena3>
 <cena4>0.0</cena4>
 <cena5>0.0</cena5>
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<zaokrJakK>zaokrJak.matem</zaokrJakK>
+<zaokrNaK>zaokrNa.setiny</zaokrNaK>
+<typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
 <desetinMj>6</desetinMj>
 <nakupCena>704.375</nakupCena>
 <cenJednotka>1.0</cenJednotka>
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<typCenyVychoziK>typCenyVychozi.nakCena</typCenyVychoziK>
+<typVypCenyK>typVypCeny.prirazka</typVypCenyK>
+<typCenyVychozi25K>typCenyVychozi.nakCena</typCenyVychozi25K>
+<typVypCeny25K>typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -3315,7 +3315,7 @@
 <objem>0.0</objem>
 <zatrid/>
 <skladove>true</skladove>
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<typZasobyK>typZasoby.zbozi</typZasobyK>
 <baleniNazev1/>
 <baleniNazev2/>
 <baleniNazev3/>
@@ -3345,7 +3345,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<typVypoctuHlidatMinK>typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -3357,8 +3357,8 @@
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
 <createdDate>2025-06-21T06:30:05.371+02:00</createdDate>
-<skupZboz evidencePath="skupina-zbozi" showAs="ZBOŽÍ: Zboží" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<skupZboz evidencePath="skupina-zbozi" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
+<mj1 evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
@@ -3381,11 +3381,11 @@
 </mj1>
 <mj2 evidencePath="merna-jednotka"/>
 <mj3 evidencePath="merna-jednotka"/>
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjHmot evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
 <mjObj evidencePath="merna-jednotka"/>
 <stat evidencePath="stat"/>
 <nomen evidencePath="intrastat-kod-nomenklatury"/>
-<dodavatel evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
+<dodavatel evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
 <adresar>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3195</id>
 <lastUpdate>2025-06-21T06:37:45.901+02:00</lastUpdate>
@@ -3406,7 +3406,7 @@
 <fax/>
 <email/>
 <www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<stat evidencePath="stat" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
 <region evidencePath="region"/>
 <eanKod/>
 <ic>26290944</ic>
@@ -3423,7 +3423,7 @@
 <limitPoSplatZakaz>false</limitPoSplatZakaz>
 <platceDph>true</platceDph>
 <formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<typVztahuK>typVztahu.odberDodav</typVztahuK>
 <kodPojistovny/>
 <nazevPojistovny/>
 <osloveni/>
@@ -3443,7 +3443,7 @@
 <rodCis/>
 <datZaloz/>
 <canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<isdocPrilohaMailuK>isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
 <createdDate>2025-06-21T06:37:45.901+02:00</createdDate>
 <skupFir evidencePath="skupina-firem"/>
 <stredisko evidencePath="stredisko"/>
@@ -3452,8 +3452,8 @@
 <zodpOsoba evidencePath="uzivatel"/>
 <skupCen evidencePath="cenikova-skupina"/>
 <formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <kontakty/>
 <mistaUrceni/>
 <bankovniSpojeni/>
@@ -3463,8 +3463,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele>
@@ -3486,8 +3486,8 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0123_PIP053-63-V: PIPETTO - iPad (2022) Origami No3 Pencil Case - Rose Gold" ref="/v2/c/tradehunters__s_r_o_1/cenik/3079.xml">code:0123_PIP053-63-V</cenik>
-<firma evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3079.xml">code:0123_PIP053-63-V</cenik>
+<firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
 </dodavatel>
@@ -3500,7 +3500,7 @@
 <szbDph>21.0</szbDph>
 </cenik>
 </cenik>
-<sklad evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
+<sklad evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:32</id>
 <lastUpdate>2025-06-21T06:36:19.667+02:00</lastUpdate>
@@ -3519,16 +3519,16 @@
 <automatickySklad>false</automatickySklad>
 <eanKod/>
 <stitky/>
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<radaPrijem evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaVydej evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<stredisko evidencePath="stredisko" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
 <primUcet evidencePath="ucet"/>
 <mena evidencePath="mena"/>
 </sklad>
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="REG: REGAL" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
+<typDokl evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
+<mistnost evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1</id>
 <lastUpdate>2024-02-21T18:20:27.589+01:00</lastUpdate>
@@ -3542,10 +3542,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
+<regal evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:10</id>
 <lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
@@ -3559,10 +3559,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
-<police evidencePath="umisteni-ve-skladu" showAs="002-03-1: 002-03-1" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/82.xml">
+<police evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/82.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:82</id>
 <lastUpdate>2024-02-21T18:31:23.444+01:00</lastUpdate>
@@ -3576,7 +3576,7 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.police</typUmisteniK>
 </umisteni-ve-skladu>
 </police>
 </skladova-karta>
@@ -3618,7 +3618,7 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>5.0</stavMjSPozadavky>
 <dostupMj>5.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
@@ -3632,7 +3632,7 @@
 <rokProRadu>2025</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
-<cenik evidencePath="cenik" showAs="0123_PIP053-113-V: PIPETTO - iPad (2022) Origami No3 Pencil Case - Dark Blue" ref="/v2/c/tradehunters__s_r_o_1/cenik/3076.xml">
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3076.xml">
 <cenik>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3076</id>
 <lastUpdate>2025-06-21T06:38:01.990+02:00</lastUpdate>
@@ -3648,7 +3648,7 @@
 <eanKod>5060520954752</eanKod>
 <kodPlu/>
 <cenaZakl>1559.0</cenaZakl>
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<typCenyDphK>typCeny.bezDph</typCenyDphK>
 <procZakl>0.0</procZakl>
 <individCena>false</individCena>
 <limMnoz2>0.0</limMnoz2>
@@ -3663,16 +3663,16 @@
 <cena3>0.0</cena3>
 <cena4>0.0</cena4>
 <cena5>0.0</cena5>
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<zaokrJakK>zaokrJak.matem</zaokrJakK>
+<zaokrNaK>zaokrNa.setiny</zaokrNaK>
+<typSzbDphK>typSzbDph.dphZakl</typSzbDphK>
 <desetinMj>6</desetinMj>
 <nakupCena>974.375</nakupCena>
 <cenJednotka>1.0</cenJednotka>
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<typCenyVychoziK>typCenyVychozi.nakCena</typCenyVychoziK>
+<typVypCenyK>typVypCeny.prirazka</typVypCenyK>
+<typCenyVychozi25K>typCenyVychozi.nakCena</typCenyVychozi25K>
+<typVypCeny25K>typVypCeny.prirazka</typVypCeny25K>
 <evidVyrCis>false</evidVyrCis>
 <unikVyrCis>false</unikVyrCis>
 <zaruka>0</zaruka>
@@ -3685,7 +3685,7 @@
 <objem>0.0</objem>
 <zatrid/>
 <skladove>true</skladove>
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<typZasobyK>typZasoby.zbozi</typZasobyK>
 <baleniNazev1/>
 <baleniNazev2/>
 <baleniNazev3/>
@@ -3715,7 +3715,7 @@
 <exportNaEshop>true</exportNaEshop>
 <minMarzeCenik>false</minMarzeCenik>
 <minMarze>0.0</minMarze>
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<typVypoctuHlidatMinK>typVypCeny.prirazka</typVypoctuHlidatMinK>
 <evidSarze>false</evidSarze>
 <evidExpir>false</evidExpir>
 <sada>false</sada>
@@ -3727,8 +3727,8 @@
 <dodaciLhuta/>
 <prodejKasa>true</prodejKasa>
 <createdDate>2025-06-21T06:30:05.366+02:00</createdDate>
-<skupZboz evidencePath="skupina-zbozi" showAs="ZBOŽÍ: Zboží" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<skupZboz evidencePath="skupina-zbozi" ref="/v2/c/tradehunters__s_r_o_1/skupina-zbozi/1.xml">code:ZBOŽÍ</skupZboz>
+<mj1 evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
 <merna-jednotka>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
 <lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
@@ -3751,11 +3751,11 @@
 </mj1>
 <mj2 evidencePath="merna-jednotka"/>
 <mj3 evidencePath="merna-jednotka"/>
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjHmot evidencePath="merna-jednotka" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
 <mjObj evidencePath="merna-jednotka"/>
 <stat evidencePath="stat"/>
 <nomen evidencePath="intrastat-kod-nomenklatury"/>
-<dodavatel evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
+<dodavatel evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">
 <adresar>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3195</id>
 <lastUpdate>2025-06-21T06:37:45.901+02:00</lastUpdate>
@@ -3776,7 +3776,7 @@
 <fax/>
 <email/>
 <www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<stat evidencePath="stat" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
 <region evidencePath="region"/>
 <eanKod/>
 <ic>26290944</ic>
@@ -3793,7 +3793,7 @@
 <limitPoSplatZakaz>false</limitPoSplatZakaz>
 <platceDph>true</platceDph>
 <formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<typVztahuK>typVztahu.odberDodav</typVztahuK>
 <kodPojistovny/>
 <nazevPojistovny/>
 <osloveni/>
@@ -3813,7 +3813,7 @@
 <rodCis/>
 <datZaloz/>
 <canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<isdocPrilohaMailuK>isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
 <createdDate>2025-06-21T06:37:45.901+02:00</createdDate>
 <skupFir evidencePath="skupina-firem"/>
 <stredisko evidencePath="stredisko"/>
@@ -3822,8 +3822,8 @@
 <zodpOsoba evidencePath="uzivatel"/>
 <skupCen evidencePath="cenikova-skupina"/>
 <formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <kontakty/>
 <mistaUrceni/>
 <bankovniSpojeni/>
@@ -3833,8 +3833,8 @@
 <vyrobce evidencePath="adresar"/>
 <dphPren evidencePath="preneseni-dph"/>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
+<updatedBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</createdBy>
 <sady-a-komplety/>
 <poplatky/>
 <dodavatele>
@@ -3856,8 +3856,8 @@
 <nakupCena3>0.0</nakupCena3>
 <nakupCena4>0.0</nakupCena4>
 <nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0123_PIP053-113-V: PIPETTO - iPad (2022) Origami No3 Pencil Case - Dark Blue" ref="/v2/c/tradehunters__s_r_o_1/cenik/3076.xml">code:0123_PIP053-113-V</cenik>
-<firma evidencePath="adresar" showAs="COMFOR: COMFOR STORES a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
+<cenik evidencePath="cenik" ref="/v2/c/tradehunters__s_r_o_1/cenik/3076.xml">code:0123_PIP053-113-V</cenik>
+<firma evidencePath="adresar" ref="/v2/c/tradehunters__s_r_o_1/adresar/3195.xml">code:COMFOR</firma>
 <mjDodaciLhuta evidencePath="merna-jednotka"/>
 <mena evidencePath="mena"/>
 </dodavatel>
@@ -3870,7 +3870,7 @@
 <szbDph>21.0</szbDph>
 </cenik>
 </cenik>
-<sklad evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
+<sklad evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:32</id>
 <lastUpdate>2025-06-21T06:36:19.667+02:00</lastUpdate>
@@ -3889,16 +3889,16 @@
 <automatickySklad>false</automatickySklad>
 <eanKod/>
 <stitky/>
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<radaPrijem evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaVydej evidencePath="rada-skladovy-pohyb" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<stredisko evidencePath="stredisko" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
 <primUcet evidencePath="ucet"/>
 <mena evidencePath="mena"/>
 </sklad>
 </sklad>
 <!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0123: ATCOM" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="REG: REGAL" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
+<typDokl evidencePath="sklad" ref="/v2/c/tradehunters__s_r_o_1/sklad/32.xml">code:0123</typDokl>
+<mistnost evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/1.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1</id>
 <lastUpdate>2024-02-21T18:20:27.589+01:00</lastUpdate>
@@ -3912,10 +3912,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
+<regal evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:10</id>
 <lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
@@ -3929,10 +3929,10 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
-<police evidencePath="umisteni-ve-skladu" showAs="001-04-2: 001-04-2" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/111.xml">
+<police evidencePath="umisteni-ve-skladu" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/111.xml">
 <umisteni-ve-skladu>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:111</id>
 <lastUpdate>2024-02-21T18:31:23.448+01:00</lastUpdate>
@@ -3946,7 +3946,7 @@
 <visible>true</visible>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+<typUmisteniK>typUmisteniSklad.police</typUmisteniK>
 </umisteni-ve-skladu>
 </police>
 </skladova-karta>
