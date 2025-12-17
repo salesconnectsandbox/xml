@@ -2471,376 +2471,6 @@
 </police>
 </skladova-karta>
 <skladova-karta>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13943</id>
-<lastUpdate>2025-12-16T06:12:08.606+01:00</lastUpdate>
-<prumCenaTuz>625.1</prumCenaTuz>
-<prumCenaMen>625.1</prumCenaMen>
-<stavMJ>2.0</stavMJ>
-<stavTuz>1250.2</stavTuz>
-<stavMen>1250.2</stavMen>
-<datPosl>2025-12-16</datPosl>
-<pocatMJ>0.0</pocatMJ>
-<pocatTuz>0.0</pocatTuz>
-<pocatMen>0.0</pocatMen>
-<minMJ>0.0</minMJ>
-<maxMJ>0.0</maxMJ>
-<rezervMJ>0.0</rezervMJ>
-<datStavMJ>0.0</datStavMJ>
-<datStavTuz>0.0</datStavTuz>
-<datStavMen>0.0</datStavMen>
-<poslCenaTuz>625.1</poslCenaTuz>
-<poslCenaMen>625.1</poslCenaMen>
-<vydExpir>false</vydExpir>
-<popis/>
-<popisA/>
-<popisB/>
-<popisC/>
-<poznamVelka/>
-<nazev>Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý</nazev>
-<nazevA/>
-<nazevB/>
-<nazevC/>
-<cenPopis/>
-<cenPopisA/>
-<cenPopisB/>
-<cenPopisC/>
-<cenPoznam/>
-<pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>2.0</stavMjSPozadavky>
-<dostupMj>2.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
-<ucetni-obdobi>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
-<platiOdData>2025-01-01</platiOdData>
-<platiDoData>2025-12-31</platiDoData>
-<popis/>
-<poznam/>
-<kod>2025</kod>
-<zmenaZaver>true</zmenaZaver>
-<chybaPreceneni>true</chybaPreceneni>
-<rokProRadu>2025</rokProRadu>
-</ucetni-obdobi>
-</ucetObdobi>
-<cenik evidencePath="cenik" showAs="0096_N785K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/186.xml">
-<cenik>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:186</id>
-<lastUpdate>2025-06-03T05:47:46.419+02:00</lastUpdate>
-<kod>0096_N785K0.A5.0604.1.1</kod>
-<nazev>Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý</nazev>
-<nazevA/>
-<nazevB/>
-<nazevC/>
-<poznam/>
-<popis/>
-<platiOd>0</platiOd>
-<platiDo>9999</platiDo>
-<eanKod>8595167405246</eanKod>
-<kodPlu/>
-<cenaZakl>893.0</cenaZakl>
-<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
-<procZakl>0.0</procZakl>
-<individCena>false</individCena>
-<limMnoz2>0.0</limMnoz2>
-<limMnoz3>0.0</limMnoz3>
-<limMnoz4>0.0</limMnoz4>
-<limMnoz5>0.0</limMnoz5>
-<procento2>0.0</procento2>
-<procento3>0.0</procento3>
-<procento4>0.0</procento4>
-<procento5>0.0</procento5>
-<cena2>0.0</cena2>
-<cena3>0.0</cena3>
-<cena4>0.0</cena4>
-<cena5>0.0</cena5>
-<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
-<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
-<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
-<desetinMj>6</desetinMj>
-<nakupCena>625.1</nakupCena>
-<cenJednotka>1.0</cenJednotka>
-<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
-<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
-<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
-<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
-<evidVyrCis>false</evidVyrCis>
-<unikVyrCis>false</unikVyrCis>
-<zaruka>0</zaruka>
-<mjZarukyK/>
-<mjKoef2>0.0</mjKoef2>
-<mjKoef3>0.0</mjKoef3>
-<prodejMj>0.0</prodejMj>
-<hmotMj>8.0</hmotMj>
-<hmotObal>0.0</hmotObal>
-<objem>0.0</objem>
-<zatrid/>
-<skladove>true</skladove>
-<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
-<baleniNazev1/>
-<baleniNazev2/>
-<baleniNazev3/>
-<baleniNazev4/>
-<baleniNazev5/>
-<baleniMj1>0.0</baleniMj1>
-<baleniMj2>0.0</baleniMj2>
-<baleniMj3>0.0</baleniMj3>
-<baleniMj4>0.0</baleniMj4>
-<baleniMj5>0.0</baleniMj5>
-<baleniEan1/>
-<baleniEan2/>
-<baleniEan3/>
-<baleniEan4/>
-<baleniEan5/>
-<inEvid>false</inEvid>
-<inKoefMj>0.0</inKoefMj>
-<inKoefStat>0.0</inKoefStat>
-<inKodSled/>
-<popisA/>
-<popisB/>
-<popisC/>
-<cenaBezna>0.0</cenaBezna>
-<stitky/>
-<stavy/>
-<pocetPriloh>0</pocetPriloh>
-<exportNaEshop>true</exportNaEshop>
-<minMarzeCenik>false</minMarzeCenik>
-<minMarze>0.0</minMarze>
-<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
-<evidSarze>false</evidSarze>
-<evidExpir>false</evidExpir>
-<sada>false</sada>
-<dnyTrvanPoExpir>0</dnyTrvanPoExpir>
-<neseskupovatObj>false</neseskupovatObj>
-<kratkyPopis/>
-<klicSlova/>
-<techParam/>
-<dodaciLhuta/>
-<prodejKasa>true</prodejKasa>
-<createdDate/>
-<skupZboz evidencePath="skupina-zbozi"/>
-<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
-<merna-jednotka>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
-<kod>KS</kod>
-<nazev>kus</nazev>
-<nazevA>piece</nazevA>
-<nazevB>Stück</nazevB>
-<nazevC/>
-<poznam/>
-<popis/>
-<platiOd>0</platiOd>
-<platiDo>9999</platiDo>
-<typMjK/>
-<normalMjK/>
-<kodTisk>KS</kodTisk>
-<kodTiskA/>
-<kodTiskB/>
-<kodTiskC/>
-</merna-jednotka>
-</mj1>
-<mj2 evidencePath="merna-jednotka"/>
-<mj3 evidencePath="merna-jednotka"/>
-<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
-<mjObj evidencePath="merna-jednotka"/>
-<stat evidencePath="stat"/>
-<nomen evidencePath="intrastat-kod-nomenklatury"/>
-<dodavatel evidencePath="adresar" showAs="KOVONA: KOVONA a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/723.xml">
-<adresar>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:723</id>
-<lastUpdate>2024-05-30T10:12:40.950+02:00</lastUpdate>
-<kod>KOVONA</kod>
-<nazev>KOVONA a.s.</nazev>
-<nazevA/>
-<nazevB/>
-<nazevC/>
-<poznam/>
-<popis/>
-<platiOd>0</platiOd>
-<platiDo>9999</platiDo>
-<ulice>Švermova 782/2</ulice>
-<mesto>Lysá nad Labem</mesto>
-<psc>28922</psc>
-<tel/>
-<mobil/>
-<fax/>
-<email/>
-<www/>
-<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
-<region evidencePath="region"/>
-<eanKod/>
-<ic>14801884</ic>
-<dic>CZ14801884</dic>
-<postovniShodna>true</postovniShodna>
-<faEanKod/>
-<faJmenoFirmy/>
-<faUlice/>
-<faMesto/>
-<faPsc/>
-<splatDny/>
-<limitFak>0.0</limitFak>
-<limitPoSplatDny/>
-<limitPoSplatZakaz>false</limitPoSplatZakaz>
-<platceDph>true</platceDph>
-<formExportK/>
-<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
-<kodPojistovny/>
-<nazevPojistovny/>
-<osloveni/>
-<slevaDokl>0.0</slevaDokl>
-<obpAutomHotovo>false</obpAutomHotovo>
-<nazev2/>
-<nazev2A/>
-<nazev2B/>
-<nazev2C/>
-<nespolehlivyPlatce>false</nespolehlivyPlatce>
-<revize>0</revize>
-<stitky/>
-<pocetPriloh>0</pocetPriloh>
-<katastrUzemi/>
-<parcela/>
-<datNaroz/>
-<rodCis/>
-<datZaloz/>
-<canceled>false</canceled>
-<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
-<createdDate/>
-<skupFir evidencePath="skupina-firem"/>
-<stredisko evidencePath="stredisko"/>
-<faStat evidencePath="stat"/>
-<faRegion evidencePath="region"/>
-<zodpOsoba evidencePath="uzivatel"/>
-<skupCen evidencePath="cenikova-skupina"/>
-<formaUhradyCis evidencePath="forma-uhrady"/>
-<updatedBy evidencePath="uzivatel"/>
-<createdBy evidencePath="uzivatel"/>
-<kontakty/>
-<mistaUrceni/>
-<bankovniSpojeni/>
-<prilohy/>
-</adresar>
-</dodavatel>
-<vyrobce evidencePath="adresar"/>
-<dphPren evidencePath="preneseni-dph"/>
-<mjDodaciLhuta evidencePath="merna-jednotka"/>
-<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
-<createdBy evidencePath="uzivatel"/>
-<sady-a-komplety/>
-<poplatky/>
-<dodavatele>
-<dodavatel>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1940</id>
-<lastUpdate>2008-01-01T00:00:00+01:00</lastUpdate>
-<kodIndi/>
-<nakupCena>0.0</nakupCena>
-<poznam/>
-<primarni>true</primarni>
-<stavMJ/>
-<dodaciLhuta/>
-<stitky/>
-<limMnoz2>0.0</limMnoz2>
-<limMnoz3>0.0</limMnoz3>
-<limMnoz4>0.0</limMnoz4>
-<limMnoz5>0.0</limMnoz5>
-<nakupCena2>0.0</nakupCena2>
-<nakupCena3>0.0</nakupCena3>
-<nakupCena4>0.0</nakupCena4>
-<nakupCena5>0.0</nakupCena5>
-<cenik evidencePath="cenik" showAs="0096_N785K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/186.xml">code:0096_N785K0.A5.0604.1.1</cenik>
-<firma evidencePath="adresar" showAs="KOVONA: KOVONA a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/723.xml">code:KOVONA</firma>
-<mjDodaciLhuta evidencePath="merna-jednotka"/>
-<mena evidencePath="mena"/>
-</dodavatel>
-</dodavatele>
-<odberatele/>
-<typy-sazeb-dph/>
-<cenaZaklBezDph>893.0</cenaZaklBezDph>
-<cenaZaklVcDph>1080.53</cenaZaklVcDph>
-<prilohy/>
-<szbDph>21.0</szbDph>
-</cenik>
-</cenik>
-<sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
-<sklad>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
-<kod>0096</kod>
-<nazev>KOVONA</nazev>
-<nazevA/>
-<nazevB/>
-<nazevC/>
-<poznam/>
-<popis/>
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
-<platiOd>0</platiOd>
-<platiDo>9999</platiDo>
-<modul>SKL</modul>
-<automatickySklad>false</automatickySklad>
-<eanKod/>
-<stitky/>
-<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
-<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
-<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
-<primUcet evidencePath="ucet"/>
-<mena evidencePath="mena"/>
-</sklad>
-</sklad>
-<!--  DEPRECATED, use "sklad"  -->
-<typDokl evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">code:0096</typDokl>
-<mistnost evidencePath="umisteni-ve-skladu" showAs="PAL: PALETA" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/2.xml">
-<umisteni-ve-skladu>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:2</id>
-<lastUpdate>2024-02-21T18:20:37.978+01:00</lastUpdate>
-<kod>PAL</kod>
-<nazev>PALETA</nazev>
-<nazevA/>
-<nazevB/>
-<nazevC/>
-<poznam/>
-<popis/>
-<visible>true</visible>
-<platiOd>0</platiOd>
-<platiDo>9999</platiDo>
-<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
-</umisteni-ve-skladu>
-</mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="J: J" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/13.xml">
-<umisteni-ve-skladu>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13</id>
-<lastUpdate>2024-02-21T18:23:58.095+01:00</lastUpdate>
-<kod>J</kod>
-<nazev>J</nazev>
-<nazevA/>
-<nazevB/>
-<nazevC/>
-<poznam/>
-<popis/>
-<visible>true</visible>
-<platiOd>0</platiOd>
-<platiDo>9999</platiDo>
-<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
-</umisteni-ve-skladu>
-</regal>
-<police evidencePath="umisteni-ve-skladu" showAs="003-01-1: 003-01-1" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/43.xml">
-<umisteni-ve-skladu>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:43</id>
-<lastUpdate>2024-02-21T18:31:23.439+01:00</lastUpdate>
-<kod>003-01-1</kod>
-<nazev>003-01-1</nazev>
-<nazevA/>
-<nazevB/>
-<nazevC/>
-<poznam/>
-<popis/>
-<visible>true</visible>
-<platiOd>0</platiOd>
-<platiDo>9999</platiDo>
-<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
-</umisteni-ve-skladu>
-</police>
-</skladova-karta>
-<skladova-karta>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13947</id>
 <lastUpdate>2008-01-01T00:00:00+01:00</lastUpdate>
 <prumCenaTuz>3217.9</prumCenaTuz>
@@ -3177,6 +2807,376 @@
 </mistnost>
 <regal evidencePath="umisteni-ve-skladu"/>
 <police evidencePath="umisteni-ve-skladu"/>
+</skladova-karta>
+<skladova-karta>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13943</id>
+<lastUpdate>2025-12-17T06:23:54.165+01:00</lastUpdate>
+<prumCenaTuz>625.1</prumCenaTuz>
+<prumCenaMen>625.1</prumCenaMen>
+<stavMJ>0.0</stavMJ>
+<stavTuz>0.0</stavTuz>
+<stavMen>0.0</stavMen>
+<datPosl>2025-12-17</datPosl>
+<pocatMJ>0.0</pocatMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMen>0.0</pocatMen>
+<minMJ>0.0</minMJ>
+<maxMJ>0.0</maxMJ>
+<rezervMJ>0.0</rezervMJ>
+<datStavMJ>0.0</datStavMJ>
+<datStavTuz>0.0</datStavTuz>
+<datStavMen>0.0</datStavMen>
+<poslCenaTuz>625.1</poslCenaTuz>
+<poslCenaMen>625.1</poslCenaMen>
+<vydExpir>false</vydExpir>
+<popis/>
+<popisA/>
+<popisB/>
+<popisC/>
+<poznamVelka/>
+<nazev>Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý</nazev>
+<nazevA/>
+<nazevB/>
+<nazevC/>
+<cenPopis/>
+<cenPopisA/>
+<cenPopisB/>
+<cenPopisC/>
+<cenPoznam/>
+<pozadavkyMj>0.0</pozadavkyMj>
+<stavMjSPozadavky>0.0</stavMjSPozadavky>
+<dostupMj>0.0</dostupMj>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetni-obdobi>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
+<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
+<platiOdData>2025-01-01</platiOdData>
+<platiDoData>2025-12-31</platiDoData>
+<popis/>
+<poznam/>
+<kod>2025</kod>
+<zmenaZaver>true</zmenaZaver>
+<chybaPreceneni>true</chybaPreceneni>
+<rokProRadu>2025</rokProRadu>
+</ucetni-obdobi>
+</ucetObdobi>
+<cenik evidencePath="cenik" showAs="0096_N785K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/186.xml">
+<cenik>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:186</id>
+<lastUpdate>2025-06-03T05:47:46.419+02:00</lastUpdate>
+<kod>0096_N785K0.A5.0604.1.1</kod>
+<nazev>Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý</nazev>
+<nazevA/>
+<nazevB/>
+<nazevC/>
+<poznam/>
+<popis/>
+<platiOd>0</platiOd>
+<platiDo>9999</platiDo>
+<eanKod>8595167405246</eanKod>
+<kodPlu/>
+<cenaZakl>893.0</cenaZakl>
+<typCenyDphK showAs="bez DPH">typCeny.bezDph</typCenyDphK>
+<procZakl>0.0</procZakl>
+<individCena>false</individCena>
+<limMnoz2>0.0</limMnoz2>
+<limMnoz3>0.0</limMnoz3>
+<limMnoz4>0.0</limMnoz4>
+<limMnoz5>0.0</limMnoz5>
+<procento2>0.0</procento2>
+<procento3>0.0</procento3>
+<procento4>0.0</procento4>
+<procento5>0.0</procento5>
+<cena2>0.0</cena2>
+<cena3>0.0</cena3>
+<cena4>0.0</cena4>
+<cena5>0.0</cena5>
+<zaokrJakK showAs="matematicky">zaokrJak.matem</zaokrJakK>
+<zaokrNaK showAs="0.01">zaokrNa.setiny</zaokrNaK>
+<typSzbDphK showAs="základní">typSzbDph.dphZakl</typSzbDphK>
+<desetinMj>6</desetinMj>
+<nakupCena>625.1</nakupCena>
+<cenJednotka>1.0</cenJednotka>
+<typCenyVychoziK showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychoziK>
+<typVypCenyK showAs="přirážka">typVypCeny.prirazka</typVypCenyK>
+<typCenyVychozi25K showAs="nákupní cena">typCenyVychozi.nakCena</typCenyVychozi25K>
+<typVypCeny25K showAs="přirážka">typVypCeny.prirazka</typVypCeny25K>
+<evidVyrCis>false</evidVyrCis>
+<unikVyrCis>false</unikVyrCis>
+<zaruka>0</zaruka>
+<mjZarukyK/>
+<mjKoef2>0.0</mjKoef2>
+<mjKoef3>0.0</mjKoef3>
+<prodejMj>0.0</prodejMj>
+<hmotMj>8.0</hmotMj>
+<hmotObal>0.0</hmotObal>
+<objem>0.0</objem>
+<zatrid/>
+<skladove>true</skladove>
+<typZasobyK showAs="Zboží">typZasoby.zbozi</typZasobyK>
+<baleniNazev1/>
+<baleniNazev2/>
+<baleniNazev3/>
+<baleniNazev4/>
+<baleniNazev5/>
+<baleniMj1>0.0</baleniMj1>
+<baleniMj2>0.0</baleniMj2>
+<baleniMj3>0.0</baleniMj3>
+<baleniMj4>0.0</baleniMj4>
+<baleniMj5>0.0</baleniMj5>
+<baleniEan1/>
+<baleniEan2/>
+<baleniEan3/>
+<baleniEan4/>
+<baleniEan5/>
+<inEvid>false</inEvid>
+<inKoefMj>0.0</inKoefMj>
+<inKoefStat>0.0</inKoefStat>
+<inKodSled/>
+<popisA/>
+<popisB/>
+<popisC/>
+<cenaBezna>0.0</cenaBezna>
+<stitky/>
+<stavy/>
+<pocetPriloh>0</pocetPriloh>
+<exportNaEshop>true</exportNaEshop>
+<minMarzeCenik>false</minMarzeCenik>
+<minMarze>0.0</minMarze>
+<typVypoctuHlidatMinK showAs="přirážka">typVypCeny.prirazka</typVypoctuHlidatMinK>
+<evidSarze>false</evidSarze>
+<evidExpir>false</evidExpir>
+<sada>false</sada>
+<dnyTrvanPoExpir>0</dnyTrvanPoExpir>
+<neseskupovatObj>false</neseskupovatObj>
+<kratkyPopis/>
+<klicSlova/>
+<techParam/>
+<dodaciLhuta/>
+<prodejKasa>true</prodejKasa>
+<createdDate/>
+<skupZboz evidencePath="skupina-zbozi"/>
+<mj1 evidencePath="merna-jednotka" showAs="KS: kus" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/3.xml">
+<merna-jednotka>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
+<lastUpdate>2006-01-01T00:00:00+01:00</lastUpdate>
+<kod>KS</kod>
+<nazev>kus</nazev>
+<nazevA>piece</nazevA>
+<nazevB>Stück</nazevB>
+<nazevC/>
+<poznam/>
+<popis/>
+<platiOd>0</platiOd>
+<platiDo>9999</platiDo>
+<typMjK/>
+<normalMjK/>
+<kodTisk>KS</kodTisk>
+<kodTiskA/>
+<kodTiskB/>
+<kodTiskC/>
+</merna-jednotka>
+</mj1>
+<mj2 evidencePath="merna-jednotka"/>
+<mj3 evidencePath="merna-jednotka"/>
+<mjHmot evidencePath="merna-jednotka" showAs="KG: kilogram" ref="/v2/c/tradehunters__s_r_o_1/merna-jednotka/1.xml">code:KG</mjHmot>
+<mjObj evidencePath="merna-jednotka"/>
+<stat evidencePath="stat"/>
+<nomen evidencePath="intrastat-kod-nomenklatury"/>
+<dodavatel evidencePath="adresar" showAs="KOVONA: KOVONA a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/723.xml">
+<adresar>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:723</id>
+<lastUpdate>2024-05-30T10:12:40.950+02:00</lastUpdate>
+<kod>KOVONA</kod>
+<nazev>KOVONA a.s.</nazev>
+<nazevA/>
+<nazevB/>
+<nazevC/>
+<poznam/>
+<popis/>
+<platiOd>0</platiOd>
+<platiDo>9999</platiDo>
+<ulice>Švermova 782/2</ulice>
+<mesto>Lysá nad Labem</mesto>
+<psc>28922</psc>
+<tel/>
+<mobil/>
+<fax/>
+<email/>
+<www/>
+<stat evidencePath="stat" showAs="Česká republika" ref="/v2/c/tradehunters__s_r_o_1/stat/39.xml">code:CZ</stat>
+<region evidencePath="region"/>
+<eanKod/>
+<ic>14801884</ic>
+<dic>CZ14801884</dic>
+<postovniShodna>true</postovniShodna>
+<faEanKod/>
+<faJmenoFirmy/>
+<faUlice/>
+<faMesto/>
+<faPsc/>
+<splatDny/>
+<limitFak>0.0</limitFak>
+<limitPoSplatDny/>
+<limitPoSplatZakaz>false</limitPoSplatZakaz>
+<platceDph>true</platceDph>
+<formExportK/>
+<typVztahuK showAs="Odběr./Dodav.">typVztahu.odberDodav</typVztahuK>
+<kodPojistovny/>
+<nazevPojistovny/>
+<osloveni/>
+<slevaDokl>0.0</slevaDokl>
+<obpAutomHotovo>false</obpAutomHotovo>
+<nazev2/>
+<nazev2A/>
+<nazev2B/>
+<nazev2C/>
+<nespolehlivyPlatce>false</nespolehlivyPlatce>
+<revize>0</revize>
+<stitky/>
+<pocetPriloh>0</pocetPriloh>
+<katastrUzemi/>
+<parcela/>
+<datNaroz/>
+<rodCis/>
+<datZaloz/>
+<canceled>false</canceled>
+<isdocPrilohaMailuK showAs="Podle typu dokladu">isdocPrilohaMailu.podleTypDokl</isdocPrilohaMailuK>
+<createdDate/>
+<skupFir evidencePath="skupina-firem"/>
+<stredisko evidencePath="stredisko"/>
+<faStat evidencePath="stat"/>
+<faRegion evidencePath="region"/>
+<zodpOsoba evidencePath="uzivatel"/>
+<skupCen evidencePath="cenikova-skupina"/>
+<formaUhradyCis evidencePath="forma-uhrady"/>
+<updatedBy evidencePath="uzivatel"/>
+<createdBy evidencePath="uzivatel"/>
+<kontakty/>
+<mistaUrceni/>
+<bankovniSpojeni/>
+<prilohy/>
+</adresar>
+</dodavatel>
+<vyrobce evidencePath="adresar"/>
+<dphPren evidencePath="preneseni-dph"/>
+<mjDodaciLhuta evidencePath="merna-jednotka"/>
+<updatedBy evidencePath="uzivatel" showAs="Lebeda Lukáš" ref="/v2/c/tradehunters__s_r_o_1/uzivatel/1.xml">code:lukas.lebeda</updatedBy>
+<createdBy evidencePath="uzivatel"/>
+<sady-a-komplety/>
+<poplatky/>
+<dodavatele>
+<dodavatel>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:1940</id>
+<lastUpdate>2008-01-01T00:00:00+01:00</lastUpdate>
+<kodIndi/>
+<nakupCena>0.0</nakupCena>
+<poznam/>
+<primarni>true</primarni>
+<stavMJ/>
+<dodaciLhuta/>
+<stitky/>
+<limMnoz2>0.0</limMnoz2>
+<limMnoz3>0.0</limMnoz3>
+<limMnoz4>0.0</limMnoz4>
+<limMnoz5>0.0</limMnoz5>
+<nakupCena2>0.0</nakupCena2>
+<nakupCena3>0.0</nakupCena3>
+<nakupCena4>0.0</nakupCena4>
+<nakupCena5>0.0</nakupCena5>
+<cenik evidencePath="cenik" showAs="0096_N785K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/186.xml">code:0096_N785K0.A5.0604.1.1</cenik>
+<firma evidencePath="adresar" showAs="KOVONA: KOVONA a.s." ref="/v2/c/tradehunters__s_r_o_1/adresar/723.xml">code:KOVONA</firma>
+<mjDodaciLhuta evidencePath="merna-jednotka"/>
+<mena evidencePath="mena"/>
+</dodavatel>
+</dodavatele>
+<odberatele/>
+<typy-sazeb-dph/>
+<cenaZaklBezDph>893.0</cenaZaklBezDph>
+<cenaZaklVcDph>1080.53</cenaZaklVcDph>
+<prilohy/>
+<szbDph>21.0</szbDph>
+</cenik>
+</cenik>
+<sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
+<sklad>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
+<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<kod>0096</kod>
+<nazev>KOVONA</nazev>
+<nazevA/>
+<nazevB/>
+<nazevC/>
+<poznam/>
+<popis/>
+<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
+<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<platiOd>0</platiOd>
+<platiDo>9999</platiDo>
+<modul>SKL</modul>
+<automatickySklad>false</automatickySklad>
+<eanKod/>
+<stitky/>
+<radaPrijem evidencePath="rada-skladovy-pohyb" showAs="SKLAD+: Příjem zboží do skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/8.xml">code:SKLAD+</radaPrijem>
+<radaVydej evidencePath="rada-skladovy-pohyb" showAs="SKLAD-: Výdej zboží ze skladu" ref="/v2/c/tradehunters__s_r_o_1/rada-skladovy-pohyb/9.xml">code:SKLAD-</radaVydej>
+<stredisko evidencePath="stredisko" showAs="GDF: GOODSFLOW" ref="/v2/c/tradehunters__s_r_o_1/stredisko/2.xml">code:GDF</stredisko>
+<primUcet evidencePath="ucet"/>
+<mena evidencePath="mena"/>
+</sklad>
+</sklad>
+<!--  DEPRECATED, use "sklad"  -->
+<typDokl evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">code:0096</typDokl>
+<mistnost evidencePath="umisteni-ve-skladu" showAs="PAL: PALETA" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/2.xml">
+<umisteni-ve-skladu>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:2</id>
+<lastUpdate>2024-02-21T18:20:37.978+01:00</lastUpdate>
+<kod>PAL</kod>
+<nazev>PALETA</nazev>
+<nazevA/>
+<nazevB/>
+<nazevC/>
+<poznam/>
+<popis/>
+<visible>true</visible>
+<platiOd>0</platiOd>
+<platiDo>9999</platiDo>
+<typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
+</umisteni-ve-skladu>
+</mistnost>
+<regal evidencePath="umisteni-ve-skladu" showAs="J: J" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/13.xml">
+<umisteni-ve-skladu>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13</id>
+<lastUpdate>2024-02-21T18:23:58.095+01:00</lastUpdate>
+<kod>J</kod>
+<nazev>J</nazev>
+<nazevA/>
+<nazevB/>
+<nazevC/>
+<poznam/>
+<popis/>
+<visible>true</visible>
+<platiOd>0</platiOd>
+<platiDo>9999</platiDo>
+<typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
+</umisteni-ve-skladu>
+</regal>
+<police evidencePath="umisteni-ve-skladu" showAs="003-01-1: 003-01-1" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/43.xml">
+<umisteni-ve-skladu>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:43</id>
+<lastUpdate>2024-02-21T18:31:23.439+01:00</lastUpdate>
+<kod>003-01-1</kod>
+<nazev>003-01-1</nazev>
+<nazevA/>
+<nazevB/>
+<nazevC/>
+<poznam/>
+<popis/>
+<visible>true</visible>
+<platiOd>0</platiOd>
+<platiDo>9999</platiDo>
+<typUmisteniK showAs="Police">typUmisteniSklad.police</typUmisteniK>
+</umisteni-ve-skladu>
+</police>
 </skladova-karta>
 <skladova-karta>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13948</id>
