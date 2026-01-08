@@ -3,9 +3,9 @@
 <!--  Skladová karta  -->
 <skladova-karta>
 <!--  ID (celé číslo) -  -->
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13950</id>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:103108</id>
 <!--  Poslední změna (datum a čas) -  -->
-<lastUpdate>2025-11-11T13:12:51.068+01:00</lastUpdate>
+<lastUpdate>2026-01-05T06:22:56.643+01:00</lastUpdate>
 <!--  Průměrná cena [Kč] (desetinné číslo) - počet číslic: 19  -->
 <prumCenaTuz>920.5</prumCenaTuz>
 <!--  Průměrná cena [měna] (desetinné číslo) - počet číslic: 19  -->
@@ -19,11 +19,11 @@
 <!--  Datum posl. pohybu (datum) -  -->
 <datPosl>2025-11-11</datPosl>
 <!--  Počátek MJ (desetinné číslo) - počet číslic: 19  -->
-<pocatMJ>6.0</pocatMJ>
+<pocatMJ>87.0</pocatMJ>
 <!--  Počátek [Kč] (desetinné číslo) - počet číslic: 15  -->
-<pocatTuz>5523.0</pocatTuz>
+<pocatTuz>80083.5</pocatTuz>
 <!--  Počátek [měna] (desetinné číslo) - počet číslic: 15  -->
-<pocatMen>5523.0</pocatMen>
+<pocatMen>80083.5</pocatMen>
 <!--  Min. zásoba MJ (desetinné číslo) - počet číslic: 19  -->
 <minMJ>0.0</minMJ>
 <!--  Maximum (desetinné číslo) - počet číslic: 19  -->
@@ -77,29 +77,29 @@
 <!--  Dostupné množství (desetinné číslo) - počet číslic: 19  -->
 <dostupMj>87.0</dostupMj>
 <!--  Účetní období (objekt) - max. délka: 20  -->
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <!--  Účetní období  -->
 <ucetni-obdobi>
 <!--  ID (celé číslo) -  -->
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
 <!--  Poslední změna (datum a čas) -  -->
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
+<lastUpdate>2025-01-02T10:40:10.861+01:00</lastUpdate>
 <!--  Platí od data (datum) -  -->
-<platiOdData>2025-01-01</platiOdData>
+<platiOdData>2026-01-01</platiOdData>
 <!--  Platí do data (datum) -  -->
-<platiDoData>2025-12-31</platiDoData>
+<platiDoData>2026-12-31</platiDoData>
 <!--  Popis (řetězec) -  -->
 <popis/>
 <!--  Poznámka (řetězec) -  -->
 <poznam/>
 <!--  Zkratka (řetězec) - max. délka: 20  -->
-<kod>2025</kod>
+<kod>2026</kod>
 <!--  Změna po uzávěrce (logická hodnota) -  -->
 <zmenaZaver>true</zmenaZaver>
 <!--  Chyba při přecenění (logická hodnota) -  -->
-<chybaPreceneni>true</chybaPreceneni>
+<chybaPreceneni>false</chybaPreceneni>
 <!--  Kód roku pro řadu (celé číslo) - min. hodnota: 0  -->
-<rokProRadu>2025</rokProRadu>
+<rokProRadu>2026</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
 <!--  Ceník (objekt) - max. délka: 20  -->
@@ -503,7 +503,7 @@
 <!--  ID (celé číslo) -  -->
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
 <!--  Poslední změna (datum a čas) -  -->
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<lastUpdate>2026-01-05T06:21:15.008+01:00</lastUpdate>
 <!--  Zkratka (řetězec) - max. délka: 20  -->
 <kod>0096</kod>
 <!--  Název (řetězec) - max. délka: 255  -->
@@ -519,9 +519,9 @@
 <!--  Popis (řetězec) -  -->
 <popis/>
 <!--  Platí od (objekt) - max. délka: 20  -->
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
+<ucetObdobiOd evidencePath="ucetni-obdobi"/>
 <!--  Platí do (objekt) - max. délka: 20  -->
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<ucetObdobiDo evidencePath="ucetni-obdobi"/>
 <!--  Platí od roku (celé číslo) - min. hodnota: 0 max.hodnota: 9999.0  -->
 <platiOd>0</platiOd>
 <!--  Platí do roku (celé číslo) - min. hodnota: 0 max.hodnota: 9999.0  -->
@@ -621,17 +621,17 @@
 </police>
 </skladova-karta>
 <skladova-karta>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13944</id>
-<lastUpdate>2025-11-02T21:05:34.691+01:00</lastUpdate>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:103102</id>
+<lastUpdate>2026-01-05T06:22:56.643+01:00</lastUpdate>
 <prumCenaTuz>888.3</prumCenaTuz>
 <prumCenaMen>888.3</prumCenaMen>
 <stavMJ>79.0</stavMJ>
 <stavTuz>70175.7</stavTuz>
 <stavMen>70175.7</stavMen>
 <datPosl>2025-11-02</datPosl>
-<pocatMJ>4.0</pocatMJ>
-<pocatTuz>3553.2</pocatTuz>
-<pocatMen>3553.2</pocatMen>
+<pocatMJ>79.0</pocatMJ>
+<pocatTuz>70175.7</pocatTuz>
+<pocatMen>70175.7</pocatMen>
 <minMJ>0.0</minMJ>
 <maxMJ>0.0</maxMJ>
 <rezervMJ>0.0</rezervMJ>
@@ -658,18 +658,18 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>79.0</stavMjSPozadavky>
 <dostupMj>79.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
-<platiOdData>2025-01-01</platiOdData>
-<platiDoData>2025-12-31</platiDoData>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
+<lastUpdate>2025-01-02T10:40:10.861+01:00</lastUpdate>
+<platiOdData>2026-01-01</platiOdData>
+<platiDoData>2026-12-31</platiDoData>
 <popis/>
 <poznam/>
-<kod>2025</kod>
+<kod>2026</kod>
 <zmenaZaver>true</zmenaZaver>
-<chybaPreceneni>true</chybaPreceneni>
-<rokProRadu>2025</rokProRadu>
+<chybaPreceneni>false</chybaPreceneni>
+<rokProRadu>2026</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
 <cenik evidencePath="cenik" showAs="0096_N285Z1.00.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 45 cm, 5 polic, pozinkované" ref="/v2/c/tradehunters__s_r_o_1/cenik/187.xml">
@@ -913,7 +913,7 @@
 <sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<lastUpdate>2026-01-05T06:21:15.008+01:00</lastUpdate>
 <kod>0096</kod>
 <nazev>KOVONA</nazev>
 <nazevA/>
@@ -921,8 +921,8 @@
 <nazevC/>
 <poznam/>
 <popis/>
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<ucetObdobiOd evidencePath="ucetni-obdobi"/>
+<ucetObdobiDo evidencePath="ucetni-obdobi"/>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
 <modul>SKL</modul>
@@ -991,17 +991,17 @@
 </police>
 </skladova-karta>
 <skladova-karta>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13949</id>
-<lastUpdate>2025-12-16T06:10:47.562+01:00</lastUpdate>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:103107</id>
+<lastUpdate>2026-01-05T09:29:26.215+01:00</lastUpdate>
 <prumCenaTuz>526.4</prumCenaTuz>
 <prumCenaMen>526.4</prumCenaMen>
-<stavMJ>75.0</stavMJ>
-<stavTuz>39480.0</stavTuz>
-<stavMen>39480.0</stavMen>
-<datPosl>2025-12-16</datPosl>
-<pocatMJ>0.0</pocatMJ>
-<pocatTuz>0.0</pocatTuz>
-<pocatMen>0.0</pocatMen>
+<stavMJ>70.0</stavMJ>
+<stavTuz>36848.0</stavTuz>
+<stavMen>36848.0</stavMen>
+<datPosl>2026-01-05</datPosl>
+<pocatMJ>71.0</pocatMJ>
+<pocatTuz>37374.4</pocatTuz>
+<pocatMen>37374.4</pocatMen>
 <minMJ>0.0</minMJ>
 <maxMJ>0.0</maxMJ>
 <rezervMJ>0.0</rezervMJ>
@@ -1026,20 +1026,20 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>75.0</stavMjSPozadavky>
-<dostupMj>75.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<stavMjSPozadavky>70.0</stavMjSPozadavky>
+<dostupMj>70.0</dostupMj>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
-<platiOdData>2025-01-01</platiOdData>
-<platiDoData>2025-12-31</platiDoData>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
+<lastUpdate>2025-01-02T10:40:10.861+01:00</lastUpdate>
+<platiOdData>2026-01-01</platiOdData>
+<platiDoData>2026-12-31</platiDoData>
 <popis/>
 <poznam/>
-<kod>2025</kod>
+<kod>2026</kod>
 <zmenaZaver>true</zmenaZaver>
-<chybaPreceneni>true</chybaPreceneni>
-<rokProRadu>2025</rokProRadu>
+<chybaPreceneni>false</chybaPreceneni>
+<rokProRadu>2026</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
 <cenik evidencePath="cenik" showAs="0096_N78200.2.A5.0LMP: Kovový regál, 145 x 75 x 30 cm, 4 police, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/192.xml">
@@ -1283,7 +1283,7 @@
 <sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<lastUpdate>2026-01-05T06:21:15.008+01:00</lastUpdate>
 <kod>0096</kod>
 <nazev>KOVONA</nazev>
 <nazevA/>
@@ -1291,8 +1291,8 @@
 <nazevC/>
 <poznam/>
 <popis/>
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<ucetObdobiOd evidencePath="ucetni-obdobi"/>
+<ucetObdobiDo evidencePath="ucetni-obdobi"/>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
 <modul>SKL</modul>
@@ -1361,17 +1361,17 @@
 </police>
 </skladova-karta>
 <skladova-karta>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13946</id>
-<lastUpdate>2025-12-08T06:30:11.253+01:00</lastUpdate>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:103104</id>
+<lastUpdate>2026-01-05T11:40:42.938+01:00</lastUpdate>
 <prumCenaTuz>690.9</prumCenaTuz>
 <prumCenaMen>690.9</prumCenaMen>
-<stavMJ>74.0</stavMJ>
-<stavTuz>51126.6</stavTuz>
-<stavMen>51126.6</stavMen>
-<datPosl>2025-12-08</datPosl>
-<pocatMJ>1.0</pocatMJ>
-<pocatTuz>690.9</pocatTuz>
-<pocatMen>690.9</pocatMen>
+<stavMJ>64.0</stavMJ>
+<stavTuz>44217.6</stavTuz>
+<stavMen>44217.6</stavMen>
+<datPosl>2026-01-05</datPosl>
+<pocatMJ>74.0</pocatMJ>
+<pocatTuz>51126.6</pocatTuz>
+<pocatMen>51126.6</pocatMen>
 <minMJ>0.0</minMJ>
 <maxMJ>0.0</maxMJ>
 <rezervMJ>0.0</rezervMJ>
@@ -1396,20 +1396,20 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>74.0</stavMjSPozadavky>
-<dostupMj>74.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<stavMjSPozadavky>64.0</stavMjSPozadavky>
+<dostupMj>64.0</dostupMj>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
-<platiOdData>2025-01-01</platiOdData>
-<platiDoData>2025-12-31</platiDoData>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
+<lastUpdate>2025-01-02T10:40:10.861+01:00</lastUpdate>
+<platiOdData>2026-01-01</platiOdData>
+<platiDoData>2026-12-31</platiDoData>
 <popis/>
 <poznam/>
-<kod>2025</kod>
+<kod>2026</kod>
 <zmenaZaver>true</zmenaZaver>
-<chybaPreceneni>true</chybaPreceneni>
-<rokProRadu>2025</rokProRadu>
+<chybaPreceneni>false</chybaPreceneni>
+<rokProRadu>2026</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
 <cenik evidencePath="cenik" showAs="0096_N285P0.09.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, světle šedá barva" ref="/v2/c/tradehunters__s_r_o_1/cenik/189.xml">
@@ -1653,7 +1653,7 @@
 <sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<lastUpdate>2026-01-05T06:21:15.008+01:00</lastUpdate>
 <kod>0096</kod>
 <nazev>KOVONA</nazev>
 <nazevA/>
@@ -1661,8 +1661,8 @@
 <nazevC/>
 <poznam/>
 <popis/>
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<ucetObdobiOd evidencePath="ucetni-obdobi"/>
+<ucetObdobiDo evidencePath="ucetni-obdobi"/>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
 <modul>SKL</modul>
@@ -1731,17 +1731,17 @@
 </police>
 </skladova-karta>
 <skladova-karta>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13952</id>
-<lastUpdate>2025-12-15T06:19:20.487+01:00</lastUpdate>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:103110</id>
+<lastUpdate>2026-01-07T06:06:17.811+01:00</lastUpdate>
 <prumCenaTuz>690.9</prumCenaTuz>
 <prumCenaMen>690.9</prumCenaMen>
-<stavMJ>67.0</stavMJ>
-<stavTuz>46290.3</stavTuz>
-<stavMen>46290.3</stavMen>
-<datPosl>2025-12-15</datPosl>
-<pocatMJ>13.0</pocatMJ>
-<pocatTuz>8981.7</pocatTuz>
-<pocatMen>8981.7</pocatMen>
+<stavMJ>61.0</stavMJ>
+<stavTuz>42144.9</stavTuz>
+<stavMen>42144.9</stavMen>
+<datPosl>2026-01-07</datPosl>
+<pocatMJ>67.0</pocatMJ>
+<pocatTuz>46290.3</pocatTuz>
+<pocatMen>46290.3</pocatMen>
 <minMJ>0.0</minMJ>
 <maxMJ>0.0</maxMJ>
 <rezervMJ>0.0</rezervMJ>
@@ -1766,20 +1766,20 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>67.0</stavMjSPozadavky>
-<dostupMj>67.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<stavMjSPozadavky>61.0</stavMjSPozadavky>
+<dostupMj>61.0</dostupMj>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
-<platiOdData>2025-01-01</platiOdData>
-<platiDoData>2025-12-31</platiDoData>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
+<lastUpdate>2025-01-02T10:40:10.861+01:00</lastUpdate>
+<platiOdData>2026-01-01</platiOdData>
+<platiDoData>2026-12-31</platiDoData>
 <popis/>
 <poznam/>
-<kod>2025</kod>
+<kod>2026</kod>
 <zmenaZaver>true</zmenaZaver>
-<chybaPreceneni>true</chybaPreceneni>
-<rokProRadu>2025</rokProRadu>
+<chybaPreceneni>false</chybaPreceneni>
+<rokProRadu>2026</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
 <cenik evidencePath="cenik" showAs="0096_N786K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 6 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/195.xml">
@@ -2023,7 +2023,7 @@
 <sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<lastUpdate>2026-01-05T06:21:15.008+01:00</lastUpdate>
 <kod>0096</kod>
 <nazev>KOVONA</nazev>
 <nazevA/>
@@ -2031,8 +2031,8 @@
 <nazevC/>
 <poznam/>
 <popis/>
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<ucetObdobiOd evidencePath="ucetni-obdobi"/>
+<ucetObdobiDo evidencePath="ucetni-obdobi"/>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
 <modul>SKL</modul>
@@ -2101,17 +2101,17 @@
 </police>
 </skladova-karta>
 <skladova-karta>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13945</id>
-<lastUpdate>2025-12-16T06:11:45.596+01:00</lastUpdate>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:103103</id>
+<lastUpdate>2026-01-06T13:12:31.963+01:00</lastUpdate>
 <prumCenaTuz>1234.8</prumCenaTuz>
 <prumCenaMen>1234.8</prumCenaMen>
-<stavMJ>23.0</stavMJ>
-<stavTuz>28400.4</stavTuz>
-<stavMen>28400.4</stavMen>
-<datPosl>2025-12-16</datPosl>
-<pocatMJ>3.0</pocatMJ>
-<pocatTuz>3704.4</pocatTuz>
-<pocatMen>3704.4</pocatMen>
+<stavMJ>16.0</stavMJ>
+<stavTuz>19756.8</stavTuz>
+<stavMen>19756.8</stavMen>
+<datPosl>2026-01-06</datPosl>
+<pocatMJ>22.0</pocatMJ>
+<pocatTuz>27165.6</pocatTuz>
+<pocatMen>27165.6</pocatMen>
 <minMJ>0.0</minMJ>
 <maxMJ>0.0</maxMJ>
 <rezervMJ>0.0</rezervMJ>
@@ -2136,20 +2136,20 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>23.0</stavMjSPozadavky>
-<dostupMj>23.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<stavMjSPozadavky>16.0</stavMjSPozadavky>
+<dostupMj>16.0</dostupMj>
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
-<platiOdData>2025-01-01</platiOdData>
-<platiDoData>2025-12-31</platiDoData>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
+<lastUpdate>2025-01-02T10:40:10.861+01:00</lastUpdate>
+<platiOdData>2026-01-01</platiOdData>
+<platiDoData>2026-12-31</platiDoData>
 <popis/>
 <poznam/>
-<kod>2025</kod>
+<kod>2026</kod>
 <zmenaZaver>true</zmenaZaver>
-<chybaPreceneni>true</chybaPreceneni>
-<rokProRadu>2025</rokProRadu>
+<chybaPreceneni>false</chybaPreceneni>
+<rokProRadu>2026</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
 <cenik evidencePath="cenik" showAs="0096_N685Z7.00.0805.1.1: Kovový regál s policemi z MDF, 178 x 120 x 40 cm, 5 polic" ref="/v2/c/tradehunters__s_r_o_1/cenik/188.xml">
@@ -2393,7 +2393,7 @@
 <sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<lastUpdate>2026-01-05T06:21:15.008+01:00</lastUpdate>
 <kod>0096</kod>
 <nazev>KOVONA</nazev>
 <nazevA/>
@@ -2401,8 +2401,8 @@
 <nazevC/>
 <poznam/>
 <popis/>
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<ucetObdobiOd evidencePath="ucetni-obdobi"/>
+<ucetObdobiDo evidencePath="ucetni-obdobi"/>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
 <modul>SKL</modul>
@@ -2471,8 +2471,8 @@
 </police>
 </skladova-karta>
 <skladova-karta>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13947</id>
-<lastUpdate>2008-01-01T00:00:00+01:00</lastUpdate>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:103105</id>
+<lastUpdate>2026-01-05T06:22:56.643+01:00</lastUpdate>
 <prumCenaTuz>3217.9</prumCenaTuz>
 <prumCenaMen>3217.9</prumCenaMen>
 <stavMJ>1.0</stavMJ>
@@ -2508,18 +2508,18 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>1.0</stavMjSPozadavky>
 <dostupMj>1.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
-<platiOdData>2025-01-01</platiOdData>
-<platiDoData>2025-12-31</platiDoData>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
+<lastUpdate>2025-01-02T10:40:10.861+01:00</lastUpdate>
+<platiOdData>2026-01-01</platiOdData>
+<platiDoData>2026-12-31</platiDoData>
 <popis/>
 <poznam/>
-<kod>2025</kod>
+<kod>2026</kod>
 <zmenaZaver>true</zmenaZaver>
-<chybaPreceneni>true</chybaPreceneni>
-<rokProRadu>2025</rokProRadu>
+<chybaPreceneni>false</chybaPreceneni>
+<rokProRadu>2026</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
 <cenik evidencePath="cenik" showAs="0096_A10180.2.09.1.4: Dvoudveřová kovová skříň jako stavebnice, 180x60x50 cm, světle šedá" ref="/v2/c/tradehunters__s_r_o_1/cenik/190.xml">
@@ -2763,7 +2763,7 @@
 <sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<lastUpdate>2026-01-05T06:21:15.008+01:00</lastUpdate>
 <kod>0096</kod>
 <nazev>KOVONA</nazev>
 <nazevA/>
@@ -2771,8 +2771,8 @@
 <nazevC/>
 <poznam/>
 <popis/>
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<ucetObdobiOd evidencePath="ucetni-obdobi"/>
+<ucetObdobiDo evidencePath="ucetni-obdobi"/>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
 <modul>SKL</modul>
@@ -2809,8 +2809,8 @@
 <police evidencePath="umisteni-ve-skladu"/>
 </skladova-karta>
 <skladova-karta>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13943</id>
-<lastUpdate>2025-12-17T06:23:54.165+01:00</lastUpdate>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:103101</id>
+<lastUpdate>2026-01-05T06:22:56.643+01:00</lastUpdate>
 <prumCenaTuz>625.1</prumCenaTuz>
 <prumCenaMen>625.1</prumCenaMen>
 <stavMJ>0.0</stavMJ>
@@ -2846,18 +2846,18 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>0.0</stavMjSPozadavky>
 <dostupMj>0.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
-<platiOdData>2025-01-01</platiOdData>
-<platiDoData>2025-12-31</platiDoData>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
+<lastUpdate>2025-01-02T10:40:10.861+01:00</lastUpdate>
+<platiOdData>2026-01-01</platiOdData>
+<platiDoData>2026-12-31</platiDoData>
 <popis/>
 <poznam/>
-<kod>2025</kod>
+<kod>2026</kod>
 <zmenaZaver>true</zmenaZaver>
-<chybaPreceneni>true</chybaPreceneni>
-<rokProRadu>2025</rokProRadu>
+<chybaPreceneni>false</chybaPreceneni>
+<rokProRadu>2026</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
 <cenik evidencePath="cenik" showAs="0096_N785K0.A5.0604.1.1: Kovový regál, 175 x 75 x 30 cm, 5 polic, bílý" ref="/v2/c/tradehunters__s_r_o_1/cenik/186.xml">
@@ -3101,7 +3101,7 @@
 <sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<lastUpdate>2026-01-05T06:21:15.008+01:00</lastUpdate>
 <kod>0096</kod>
 <nazev>KOVONA</nazev>
 <nazevA/>
@@ -3109,8 +3109,8 @@
 <nazevC/>
 <poznam/>
 <popis/>
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<ucetObdobiOd evidencePath="ucetni-obdobi"/>
+<ucetObdobiDo evidencePath="ucetni-obdobi"/>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
 <modul>SKL</modul>
@@ -3179,17 +3179,17 @@
 </police>
 </skladova-karta>
 <skladova-karta>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13948</id>
-<lastUpdate>2025-12-10T08:45:22.389+01:00</lastUpdate>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:103106</id>
+<lastUpdate>2026-01-05T06:22:56.643+01:00</lastUpdate>
 <prumCenaTuz>4603.9</prumCenaTuz>
 <prumCenaMen>4603.9</prumCenaMen>
 <stavMJ>0.0</stavMJ>
 <stavTuz>0.0</stavTuz>
 <stavMen>0.0</stavMen>
 <datPosl>2025-12-10</datPosl>
-<pocatMJ>4.0</pocatMJ>
-<pocatTuz>18415.6</pocatTuz>
-<pocatMen>18415.6</pocatMen>
+<pocatMJ>0.0</pocatMJ>
+<pocatTuz>0.0</pocatTuz>
+<pocatMen>0.0</pocatMen>
 <minMJ>0.0</minMJ>
 <maxMJ>0.0</maxMJ>
 <rezervMJ>0.0</rezervMJ>
@@ -3216,18 +3216,18 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>0.0</stavMjSPozadavky>
 <dostupMj>0.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
-<platiOdData>2025-01-01</platiOdData>
-<platiDoData>2025-12-31</platiDoData>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
+<lastUpdate>2025-01-02T10:40:10.861+01:00</lastUpdate>
+<platiOdData>2026-01-01</platiOdData>
+<platiDoData>2026-12-31</platiDoData>
 <popis/>
 <poznam/>
-<kod>2025</kod>
+<kod>2026</kod>
 <zmenaZaver>true</zmenaZaver>
-<chybaPreceneni>true</chybaPreceneni>
-<rokProRadu>2025</rokProRadu>
+<chybaPreceneni>false</chybaPreceneni>
+<rokProRadu>2026</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
 <cenik evidencePath="cenik" showAs="0096_C39400.2.09.1.4: Kovová skříň se 4 policemi, v demontu, 195x95x40 cm, světle šedá" ref="/v2/c/tradehunters__s_r_o_1/cenik/191.xml">
@@ -3471,7 +3471,7 @@
 <sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<lastUpdate>2026-01-05T06:21:15.008+01:00</lastUpdate>
 <kod>0096</kod>
 <nazev>KOVONA</nazev>
 <nazevA/>
@@ -3479,8 +3479,8 @@
 <nazevC/>
 <poznam/>
 <popis/>
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<ucetObdobiOd evidencePath="ucetni-obdobi"/>
+<ucetObdobiDo evidencePath="ucetni-obdobi"/>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
 <modul>SKL</modul>
@@ -3517,8 +3517,8 @@
 <police evidencePath="umisteni-ve-skladu"/>
 </skladova-karta>
 <skladova-karta>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:13951</id>
-<lastUpdate>2025-12-15T23:26:21.249+01:00</lastUpdate>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:103109</id>
+<lastUpdate>2026-01-05T06:22:56.643+01:00</lastUpdate>
 <prumCenaTuz>658.0</prumCenaTuz>
 <prumCenaMen>658.0</prumCenaMen>
 <stavMJ>0.0</stavMJ>
@@ -3554,18 +3554,18 @@
 <pozadavkyMj>0.0</pozadavkyMj>
 <stavMjSPozadavky>0.0</stavMjSPozadavky>
 <dostupMj>0.0</dostupMj>
-<ucetObdobi evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">
+<ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
-<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:3</id>
-<lastUpdate>2024-02-21T16:48:51.548+01:00</lastUpdate>
-<platiOdData>2025-01-01</platiOdData>
-<platiDoData>2025-12-31</platiDoData>
+<id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
+<lastUpdate>2025-01-02T10:40:10.861+01:00</lastUpdate>
+<platiOdData>2026-01-01</platiOdData>
+<platiDoData>2026-12-31</platiDoData>
 <popis/>
 <poznam/>
-<kod>2025</kod>
+<kod>2026</kod>
 <zmenaZaver>true</zmenaZaver>
-<chybaPreceneni>true</chybaPreceneni>
-<rokProRadu>2025</rokProRadu>
+<chybaPreceneni>false</chybaPreceneni>
+<rokProRadu>2026</rokProRadu>
 </ucetni-obdobi>
 </ucetObdobi>
 <cenik evidencePath="cenik" showAs="0096_N285Z0.00.0605.1.1: Kovový regál s policemi z MDF, 178 x 90 x 40 cm, 5 polic, šedý" ref="/v2/c/tradehunters__s_r_o_1/cenik/194.xml">
@@ -3809,7 +3809,7 @@
 <sklad evidencePath="sklad" showAs="0096: KOVONA" ref="/v2/c/tradehunters__s_r_o_1/sklad/17.xml">
 <sklad>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:17</id>
-<lastUpdate>2024-05-30T09:34:32.095+02:00</lastUpdate>
+<lastUpdate>2026-01-05T06:21:15.008+01:00</lastUpdate>
 <kod>0096</kod>
 <nazev>KOVONA</nazev>
 <nazevA/>
@@ -3817,8 +3817,8 @@
 <nazevC/>
 <poznam/>
 <popis/>
-<ucetObdobiOd evidencePath="ucetni-obdobi" showAs="2024" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/1.xml">code:2024</ucetObdobiOd>
-<ucetObdobiDo evidencePath="ucetni-obdobi" showAs="2025" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/3.xml">code:2025</ucetObdobiDo>
+<ucetObdobiOd evidencePath="ucetni-obdobi"/>
+<ucetObdobiDo evidencePath="ucetni-obdobi"/>
 <platiOd>0</platiOd>
 <platiDo>9999</platiDo>
 <modul>SKL</modul>
