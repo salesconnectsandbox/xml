@@ -992,13 +992,13 @@
 </skladova-karta>
 <skladova-karta>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:91596</id>
-<lastUpdate>2026-03-04T06:18:06.901+01:00</lastUpdate>
+<lastUpdate>2026-03-31T09:23:34.650+02:00</lastUpdate>
 <prumCenaTuz>1218.13</prumCenaTuz>
 <prumCenaMen>1218.13</prumCenaMen>
-<stavMJ>123.0</stavMJ>
-<stavTuz>149829.99</stavTuz>
-<stavMen>149829.99</stavMen>
-<datPosl>2026-03-04</datPosl>
+<stavMJ>122.0</stavMJ>
+<stavTuz>148611.86</stavTuz>
+<stavMen>148611.86</stavMen>
+<datPosl>2026-03-31</datPosl>
 <pocatMJ>125.0</pocatMJ>
 <pocatTuz>152266.25</pocatTuz>
 <pocatMen>152266.25</pocatMen>
@@ -1026,8 +1026,8 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>123.0</stavMjSPozadavky>
-<dostupMj>123.0</dostupMj>
+<stavMjSPozadavky>122.0</stavMjSPozadavky>
+<dostupMj>122.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
@@ -1732,13 +1732,13 @@
 </skladova-karta>
 <skladova-karta>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:91599</id>
-<lastUpdate>2026-02-16T05:56:01.523+01:00</lastUpdate>
+<lastUpdate>2026-03-31T09:23:38.701+02:00</lastUpdate>
 <prumCenaTuz>704.38</prumCenaTuz>
 <prumCenaMen>704.38</prumCenaMen>
-<stavMJ>60.0</stavMJ>
-<stavTuz>42262.8</stavTuz>
-<stavMen>42262.8</stavMen>
-<datPosl>2026-02-16</datPosl>
+<stavMJ>59.0</stavMJ>
+<stavTuz>41558.42</stavTuz>
+<stavMen>41558.42</stavMen>
+<datPosl>2026-03-31</datPosl>
 <pocatMJ>66.0</pocatMJ>
 <pocatTuz>46489.08</pocatTuz>
 <pocatMen>46489.08</pocatMen>
@@ -1766,8 +1766,8 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>60.0</stavMjSPozadavky>
-<dostupMj>60.0</dostupMj>
+<stavMjSPozadavky>59.0</stavMjSPozadavky>
+<dostupMj>59.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
 <id>ws:66be63d3-047d-4ae6-ad30-d11f0ffdffe8:4</id>
