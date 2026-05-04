@@ -2480,13 +2480,13 @@
 </skladova-karta>
 <skladova-karta>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:91604</id>
-<lastUpdate>2026-04-29T06:33:19.463+02:00</lastUpdate>
+<lastUpdate>2026-05-04T06:31:13.900+02:00</lastUpdate>
 <prumCenaTuz>612.5</prumCenaTuz>
 <prumCenaMen>612.5</prumCenaMen>
-<stavMJ>15.0</stavMJ>
-<stavTuz>9187.5</stavTuz>
-<stavMen>9187.5</stavMen>
-<datPosl>2026-04-29</datPosl>
+<stavMJ>14.0</stavMJ>
+<stavTuz>8575.0</stavTuz>
+<stavMen>8575.0</stavMen>
+<datPosl>2026-05-04</datPosl>
 <pocatMJ>37.0</pocatMJ>
 <pocatTuz>22662.5</pocatTuz>
 <pocatMen>22662.5</pocatMen>
@@ -2514,8 +2514,8 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>15.0</stavMjSPozadavky>
-<dostupMj>15.0</dostupMj>
+<stavMjSPozadavky>14.0</stavMjSPozadavky>
+<dostupMj>14.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:4</id>
@@ -3592,8 +3592,8 @@
 </police>
 </skladova-karta>
 <skladova-karta>
-<id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:91600</id>
-<lastUpdate>2026-01-08T15:52:58.613+01:00</lastUpdate>
+<id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:141006</id>
+<lastUpdate>2026-05-03T14:34:04.410+02:00</lastUpdate>
 <prumCenaTuz>974.38</prumCenaTuz>
 <prumCenaMen>974.38</prumCenaMen>
 <stavMJ>0.0</stavMJ>
@@ -3927,12 +3927,12 @@
 <typUmisteniK showAs="Místnost">typUmisteniSklad.mistnost</typUmisteniK>
 </umisteni-ve-skladu>
 </mistnost>
-<regal evidencePath="umisteni-ve-skladu" showAs="J: J" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/13.xml">
+<regal evidencePath="umisteni-ve-skladu" showAs="G: G" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/10.xml">
 <umisteni-ve-skladu>
-<id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:13</id>
-<lastUpdate>2024-02-21T18:23:58.095+01:00</lastUpdate>
-<kod>J</kod>
-<nazev>J</nazev>
+<id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:10</id>
+<lastUpdate>2024-02-21T18:23:43.417+01:00</lastUpdate>
+<kod>G</kod>
+<nazev>G</nazev>
 <nazevA/>
 <nazevB/>
 <nazevC/>
@@ -3944,12 +3944,12 @@
 <typUmisteniK showAs="Regál">typUmisteniSklad.regal</typUmisteniK>
 </umisteni-ve-skladu>
 </regal>
-<police evidencePath="umisteni-ve-skladu" showAs="003-03-2: 003-03-2" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/93.xml">
+<police evidencePath="umisteni-ve-skladu" showAs="001-04-2: 001-04-2" ref="/v2/c/tradehunters__s_r_o_1/umisteni-ve-skladu/111.xml">
 <umisteni-ve-skladu>
-<id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:93</id>
-<lastUpdate>2024-02-21T18:31:23.446+01:00</lastUpdate>
-<kod>003-03-2</kod>
-<nazev>003-03-2</nazev>
+<id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:111</id>
+<lastUpdate>2024-02-21T18:31:23.448+01:00</lastUpdate>
+<kod>001-04-2</kod>
+<nazev>001-04-2</nazev>
 <nazevA/>
 <nazevB/>
 <nazevC/>
