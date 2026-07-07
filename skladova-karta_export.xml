@@ -5,19 +5,19 @@
 <!--  ID (celé číslo) -  -->
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:103107</id>
 <!--  Poslední změna (datum a čas) -  -->
-<lastUpdate>2026-07-02T06:22:47.704+02:00</lastUpdate>
+<lastUpdate>2026-07-07T05:43:29.352+02:00</lastUpdate>
 <!--  Průměrná cena [Kč] (desetinné číslo) - počet číslic: 19  -->
 <prumCenaTuz>526.4</prumCenaTuz>
 <!--  Průměrná cena [měna] (desetinné číslo) - počet číslic: 19  -->
 <prumCenaMen>526.4</prumCenaMen>
 <!--  Stav zásob v MJ (desetinné číslo) - počet číslic: 19  -->
-<stavMJ>253.0</stavMJ>
+<stavMJ>251.0</stavMJ>
 <!--  Stav zásob [Kč] (desetinné číslo) - počet číslic: 15  -->
-<stavTuz>133179.2</stavTuz>
+<stavTuz>132126.4</stavTuz>
 <!--  Stav zásob [měna] (desetinné číslo) - počet číslic: 15  -->
-<stavMen>133179.2</stavMen>
+<stavMen>132126.4</stavMen>
 <!--  Datum posl. pohybu (datum) -  -->
-<datPosl>2026-07-02</datPosl>
+<datPosl>2026-07-07</datPosl>
 <!--  Počátek MJ (desetinné číslo) - počet číslic: 19  -->
 <pocatMJ>71.0</pocatMJ>
 <!--  Počátek [Kč] (desetinné číslo) - počet číslic: 15  -->
@@ -73,9 +73,9 @@
 <!--  Požadavky MJ (desetinné číslo) - počet číslic: 19  -->
 <pozadavkyMj>0.0</pozadavkyMj>
 <!--  Stav zásob v MJ s požadavky (desetinné číslo) - počet číslic: 19  -->
-<stavMjSPozadavky>253.0</stavMjSPozadavky>
+<stavMjSPozadavky>251.0</stavMjSPozadavky>
 <!--  Dostupné množství (desetinné číslo) - počet číslic: 19  -->
-<dostupMj>253.0</dostupMj>
+<dostupMj>251.0</dostupMj>
 <!--  Účetní období (objekt) - max. délka: 20  -->
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <!--  Účetní období  -->
@@ -1737,13 +1737,13 @@
 </skladova-karta>
 <skladova-karta>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:103109</id>
-<lastUpdate>2026-07-01T06:12:22.628+02:00</lastUpdate>
+<lastUpdate>2026-07-07T05:43:33.441+02:00</lastUpdate>
 <prumCenaTuz>658.0</prumCenaTuz>
 <prumCenaMen>658.0</prumCenaMen>
-<stavMJ>54.0</stavMJ>
-<stavTuz>35532.0</stavTuz>
-<stavMen>35532.0</stavMen>
-<datPosl>2026-07-01</datPosl>
+<stavMJ>53.0</stavMJ>
+<stavTuz>34874.0</stavTuz>
+<stavMen>34874.0</stavMen>
+<datPosl>2026-07-07</datPosl>
 <pocatMJ>0.0</pocatMJ>
 <pocatTuz>0.0</pocatTuz>
 <pocatMen>0.0</pocatMen>
@@ -1771,8 +1771,8 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>54.0</stavMjSPozadavky>
-<dostupMj>54.0</dostupMj>
+<stavMjSPozadavky>53.0</stavMjSPozadavky>
+<dostupMj>53.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:4</id>
@@ -2108,13 +2108,13 @@
 </skladova-karta>
 <skladova-karta>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:103110</id>
-<lastUpdate>2026-06-30T11:50:25.737+02:00</lastUpdate>
+<lastUpdate>2026-07-07T05:42:26.443+02:00</lastUpdate>
 <prumCenaTuz>690.9</prumCenaTuz>
 <prumCenaMen>690.9</prumCenaMen>
-<stavMJ>51.0</stavMJ>
-<stavTuz>35235.9</stavTuz>
-<stavMen>35235.9</stavMen>
-<datPosl>2026-06-30</datPosl>
+<stavMJ>50.0</stavMJ>
+<stavTuz>34545.0</stavTuz>
+<stavMen>34545.0</stavMen>
+<datPosl>2026-07-07</datPosl>
 <pocatMJ>67.0</pocatMJ>
 <pocatTuz>46290.3</pocatTuz>
 <pocatMen>46290.3</pocatMen>
@@ -2142,8 +2142,8 @@
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>51.0</stavMjSPozadavky>
-<dostupMj>51.0</dostupMj>
+<stavMjSPozadavky>50.0</stavMjSPozadavky>
+<dostupMj>50.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:4</id>
