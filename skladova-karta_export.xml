@@ -5,19 +5,19 @@
 <!--  ID (celé číslo) -  -->
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:103107</id>
 <!--  Poslední změna (datum a čas) -  -->
-<lastUpdate>2026-07-13T06:04:42.870+02:00</lastUpdate>
+<lastUpdate>2026-07-14T08:28:27.034+02:00</lastUpdate>
 <!--  Průměrná cena [Kč] (desetinné číslo) - počet číslic: 19  -->
 <prumCenaTuz>526.4</prumCenaTuz>
 <!--  Průměrná cena [měna] (desetinné číslo) - počet číslic: 19  -->
 <prumCenaMen>526.4</prumCenaMen>
 <!--  Stav zásob v MJ (desetinné číslo) - počet číslic: 19  -->
-<stavMJ>250.0</stavMJ>
+<stavMJ>244.0</stavMJ>
 <!--  Stav zásob [Kč] (desetinné číslo) - počet číslic: 15  -->
-<stavTuz>131600.0</stavTuz>
+<stavTuz>128441.6</stavTuz>
 <!--  Stav zásob [měna] (desetinné číslo) - počet číslic: 15  -->
-<stavMen>131600.0</stavMen>
+<stavMen>128441.6</stavMen>
 <!--  Datum posl. pohybu (datum) -  -->
-<datPosl>2026-07-13</datPosl>
+<datPosl>2026-07-14</datPosl>
 <!--  Počátek MJ (desetinné číslo) - počet číslic: 19  -->
 <pocatMJ>71.0</pocatMJ>
 <!--  Počátek [Kč] (desetinné číslo) - počet číslic: 15  -->
@@ -73,9 +73,9 @@
 <!--  Požadavky MJ (desetinné číslo) - počet číslic: 19  -->
 <pozadavkyMj>0.0</pozadavkyMj>
 <!--  Stav zásob v MJ s požadavky (desetinné číslo) - počet číslic: 19  -->
-<stavMjSPozadavky>250.0</stavMjSPozadavky>
+<stavMjSPozadavky>244.0</stavMjSPozadavky>
 <!--  Dostupné množství (desetinné číslo) - počet číslic: 19  -->
-<dostupMj>250.0</dostupMj>
+<dostupMj>244.0</dostupMj>
 <!--  Účetní období (objekt) - max. délka: 20  -->
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <!--  Účetní období  -->
