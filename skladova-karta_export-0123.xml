@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <winstrom version="1.0" source="FlexiBee">
 <!--  Skladová karta  -->
 <skladova-karta>
@@ -997,13 +996,13 @@ This XML file does not appear to have any style information associated with it. 
 </skladova-karta>
 <skladova-karta>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:91601</id>
-<lastUpdate>2026-08-28T08:41:34.396+02:00</lastUpdate>
+<lastUpdate>2026-09-16T09:48:47.919+02:00</lastUpdate>
 <prumCenaTuz>663.75</prumCenaTuz>
 <prumCenaMen>663.75</prumCenaMen>
-<stavMJ>121.0</stavMJ>
-<stavTuz>80313.75</stavTuz>
-<stavMen>80313.75</stavMen>
-<datPosl>2026-08-28</datPosl>
+<stavMJ>120.0</stavMJ>
+<stavTuz>79650.0</stavTuz>
+<stavMen>79650.0</stavMen>
+<datPosl>2026-09-16</datPosl>
 <pocatMJ>139.0</pocatMJ>
 <pocatTuz>92261.25</pocatTuz>
 <pocatMen>92261.25</pocatMen>
@@ -1031,8 +1030,8 @@ This XML file does not appear to have any style information associated with it. 
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>121.0</stavMjSPozadavky>
-<dostupMj>121.0</dostupMj>
+<stavMjSPozadavky>120.0</stavMjSPozadavky>
+<dostupMj>120.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:4</id>
