@@ -6,19 +6,19 @@ This XML file does not appear to have any style information associated with it. 
 <!--  ID (celé číslo) -  -->
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:103107</id>
 <!--  Poslední změna (datum a čas) -  -->
-<lastUpdate>2026-10-19T05:43:37.297+02:00</lastUpdate>
+<lastUpdate>2026-11-05T06:42:38.337+01:00</lastUpdate>
 <!--  Průměrná cena [Kč] (desetinné číslo) - počet číslic: 19  -->
 <prumCenaTuz>526.4</prumCenaTuz>
 <!--  Průměrná cena [měna] (desetinné číslo) - počet číslic: 19  -->
 <prumCenaMen>526.4</prumCenaMen>
 <!--  Stav zásob v MJ (desetinné číslo) - počet číslic: 19  -->
-<stavMJ>203.0</stavMJ>
+<stavMJ>202.0</stavMJ>
 <!--  Stav zásob [Kč] (desetinné číslo) - počet číslic: 15  -->
-<stavTuz>106859.2</stavTuz>
+<stavTuz>106332.8</stavTuz>
 <!--  Stav zásob [měna] (desetinné číslo) - počet číslic: 15  -->
-<stavMen>106859.2</stavMen>
+<stavMen>106332.8</stavMen>
 <!--  Datum posl. pohybu (datum) -  -->
-<datPosl>2026-10-19</datPosl>
+<datPosl>2026-11-05</datPosl>
 <!--  Počátek MJ (desetinné číslo) - počet číslic: 19  -->
 <pocatMJ>71.0</pocatMJ>
 <!--  Počátek [Kč] (desetinné číslo) - počet číslic: 15  -->
@@ -74,9 +74,9 @@ This XML file does not appear to have any style information associated with it. 
 <!--  Požadavky MJ (desetinné číslo) - počet číslic: 19  -->
 <pozadavkyMj>0.0</pozadavkyMj>
 <!--  Stav zásob v MJ s požadavky (desetinné číslo) - počet číslic: 19  -->
-<stavMjSPozadavky>203.0</stavMjSPozadavky>
+<stavMjSPozadavky>202.0</stavMjSPozadavky>
 <!--  Dostupné množství (desetinné číslo) - počet číslic: 19  -->
-<dostupMj>203.0</dostupMj>
+<dostupMj>202.0</dostupMj>
 <!--  Účetní období (objekt) - max. délka: 20  -->
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <!--  Účetní období  -->
@@ -1730,13 +1730,13 @@ This XML file does not appear to have any style information associated with it. 
 </skladova-karta>
 <skladova-karta>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:103103</id>
-<lastUpdate>2026-10-16T05:40:07.720+02:00</lastUpdate>
+<lastUpdate>2026-11-05T06:42:47.936+01:00</lastUpdate>
 <prumCenaTuz>1234.8</prumCenaTuz>
 <prumCenaMen>1234.8</prumCenaMen>
-<stavMJ>50.0</stavMJ>
-<stavTuz>61740.0</stavTuz>
-<stavMen>61740.0</stavMen>
-<datPosl>2026-10-16</datPosl>
+<stavMJ>45.0</stavMJ>
+<stavTuz>55566.0</stavTuz>
+<stavMen>55566.0</stavMen>
+<datPosl>2026-11-05</datPosl>
 <pocatMJ>22.0</pocatMJ>
 <pocatTuz>27165.6</pocatTuz>
 <pocatMen>27165.6</pocatMen>
@@ -1764,8 +1764,8 @@ This XML file does not appear to have any style information associated with it. 
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>50.0</stavMjSPozadavky>
-<dostupMj>50.0</dostupMj>
+<stavMjSPozadavky>45.0</stavMjSPozadavky>
+<dostupMj>45.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:4</id>
@@ -2099,13 +2099,13 @@ This XML file does not appear to have any style information associated with it. 
 </skladova-karta>
 <skladova-karta>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:103109</id>
-<lastUpdate>2026-10-19T05:42:56.426+02:00</lastUpdate>
+<lastUpdate>2026-11-05T06:42:30.097+01:00</lastUpdate>
 <prumCenaTuz>658.0</prumCenaTuz>
 <prumCenaMen>658.0</prumCenaMen>
-<stavMJ>22.0</stavMJ>
-<stavTuz>14476.0</stavTuz>
-<stavMen>14476.0</stavMen>
-<datPosl>2026-10-19</datPosl>
+<stavMJ>21.0</stavMJ>
+<stavTuz>13818.0</stavTuz>
+<stavMen>13818.0</stavMen>
+<datPosl>2026-11-05</datPosl>
 <pocatMJ>0.0</pocatMJ>
 <pocatTuz>0.0</pocatTuz>
 <pocatMen>0.0</pocatMen>
@@ -2133,8 +2133,8 @@ This XML file does not appear to have any style information associated with it. 
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>22.0</stavMjSPozadavky>
-<dostupMj>22.0</dostupMj>
+<stavMjSPozadavky>21.0</stavMjSPozadavky>
+<dostupMj>21.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:4</id>
@@ -2468,13 +2468,13 @@ This XML file does not appear to have any style information associated with it. 
 </skladova-karta>
 <skladova-karta>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:103110</id>
-<lastUpdate>2026-10-27T06:09:14.707+01:00</lastUpdate>
+<lastUpdate>2026-11-05T06:42:52.477+01:00</lastUpdate>
 <prumCenaTuz>690.9</prumCenaTuz>
 <prumCenaMen>690.9</prumCenaMen>
-<stavMJ>18.0</stavMJ>
-<stavTuz>12436.2</stavTuz>
-<stavMen>12436.2</stavMen>
-<datPosl>2026-10-27</datPosl>
+<stavMJ>16.0</stavMJ>
+<stavTuz>11054.4</stavTuz>
+<stavMen>11054.4</stavMen>
+<datPosl>2026-11-05</datPosl>
 <pocatMJ>67.0</pocatMJ>
 <pocatTuz>46290.3</pocatTuz>
 <pocatMen>46290.3</pocatMen>
@@ -2502,8 +2502,8 @@ This XML file does not appear to have any style information associated with it. 
 <cenPopisC/>
 <cenPoznam/>
 <pozadavkyMj>0.0</pozadavkyMj>
-<stavMjSPozadavky>18.0</stavMjSPozadavky>
-<dostupMj>18.0</dostupMj>
+<stavMjSPozadavky>16.0</stavMjSPozadavky>
+<dostupMj>16.0</dostupMj>
 <ucetObdobi evidencePath="ucetni-obdobi" showAs="2026" ref="/v2/c/tradehunters__s_r_o_1/ucetni-obdobi/4.xml">
 <ucetni-obdobi>
 <id>ws:38f7216a-9fd4-4847-8d5c-1f951c1d63fd:4</id>
